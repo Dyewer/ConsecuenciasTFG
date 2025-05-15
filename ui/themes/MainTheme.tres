@@ -1,0 +1,33 @@
+[gd_resource type="Theme" load_steps=6 format=3 uid="uid://cpx2c60ubwk1w"]
+
+[ext_resource type="FontFile" uid="uid://bcyquu16d385w" path="res://assets/fonts/MedievalSharp-Regular.ttf" id="1_6hc0o"]
+[ext_resource type="Texture2D" uid="uid://dkstto63a4puk" path="res://assets/SPR_FantasyMenus_Menu_Item_16 (1).png" id="2_ssek1"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_quo03"]
+bg_color = Color(0.829386, 0.521856, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yavq1"]
+bg_color = Color(1, 0.933333, 0.54902, 1)
+
+[sub_resource type="GDScript" id="GDScript_6hc0o"]
+
+[resource]
+default_font = ExtResource("1_6hc0o")
+Button/colors/font_color = Color(0.886837, 0.697609, 0.301549, 1)
+Button/colors/font_disabled_color = Color(0.462745, 0.321569, 0.156863, 1)
+Button/colors/font_focus_color = Color(1, 0.911629, 0.502628, 1)
+Button/colors/font_hover_color = Color(1, 0.892213, 0.378981, 1)
+HSlider/constants/center_grabber = 1
+HSlider/icons/grabber = ExtResource("2_ssek1")
+HSlider/icons/grabber_disabled = ExtResource("2_ssek1")
+HSlider/icons/grabber_highlight = ExtResource("2_ssek1")
+HSlider/styles/grabber_area = SubResource("StyleBoxFlat_quo03")
+HSlider/styles/grabber_area_highlight = SubResource("StyleBoxFlat_yavq1")
+Label/colors/font_color = Color(0.922992, 0.738235, 0.131434, 1)
+Label/colors/font_outline_color = Color(0.580392, 0.466667, 0.211765, 1)
+Label/colors/font_shadow_color = Color(0.235294, 0.176471, 0.219608, 1)
+Label/constants/outline_size = 1
+Label/constants/shadow_offset_x = -1
+Label/constants/shadow_offset_y = 2
+Label/constants/shadow_outline_size = 2
+script = SubResource("GDScript_6hc0o")

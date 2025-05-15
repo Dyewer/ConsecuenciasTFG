@@ -1,0 +1,43 @@
+[gd_scene load_steps=8 format=3 uid="uid://5g7avyuduhds"]
+
+[ext_resource type="Theme" uid="uid://cpx2c60ubwk1w" path="res://ui/themes/MainTheme.tres" id="1_sx2fq"]
+[ext_resource type="Texture2D" uid="uid://bmnfotgmgy3wg" path="res://assets/synty/ui/Sprites/FantasyMenus/SPR_FantasyMenus_Menu_Button_01_Frame.png" id="2_xcp71"]
+[ext_resource type="Script" uid="uid://cso0oehseuq3v" path="res://ui/elementos/BotonTexturizadoLabel.gd" id="3_mylf7"]
+[ext_resource type="Texture2D" uid="uid://c7i5es1rhr5i8" path="res://assets/synty/ui/Sprites/FantasyMenus/SPR_FantasyMenus_Menu_Button_01_Frame_Pressed.png" id="3_px0uj"]
+[ext_resource type="BitMap" path="res://ui/elementos/BotonTexturizadoMask.res" id="3_xcp71"]
+[ext_resource type="Texture2D" uid="uid://bsrgcm52gc3rb" path="res://assets/synty/ui/Sprites/FantasyMenus/SPR_FantasyMenus_Menu_Button_01_Frame_Hovered.png" id="4_rv8ru"]
+[ext_resource type="Texture2D" uid="uid://c5poy40xi6x87" path="res://assets/synty/ui/Sprites/FantasyMenus/SPR_FantasyMenus_Menu_Button_01_Frame_Disabled.png" id="5_3oe0w"]
+
+[node name="Textura" type="TextureButton"]
+texture_filter = 4
+anchors_preset = -1
+anchor_right = 0.889
+anchor_bottom = 0.395
+offset_right = -1024.13
+offset_bottom = -255.96
+size_flags_vertical = 0
+theme = ExtResource("1_sx2fq")
+texture_normal = ExtResource("2_xcp71")
+texture_pressed = ExtResource("3_px0uj")
+texture_hover = ExtResource("4_rv8ru")
+texture_disabled = ExtResource("5_3oe0w")
+texture_click_mask = ExtResource("3_xcp71")
+stretch_mode = 4
+script = ExtResource("3_mylf7")
+text = "Botón"
+_text = "Botón"
+
+[node name="Texto" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.399
+anchor_top = 0.3
+anchor_right = 0.884
+anchor_bottom = 0.72
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 94
+text = "Botón"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true

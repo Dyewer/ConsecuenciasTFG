@@ -1,0 +1,117 @@
+[gd_scene load_steps=7 format=3 uid="uid://qw4o6e4fa00d"]
+
+[ext_resource type="Script" uid="uid://lhhc70ghq8e6" path="res://ui/menu_principal.gd" id="1_jtbpl"]
+[ext_resource type="Texture2D" uid="uid://byhkgmnigvv4v" path="res://assets/backgrounds/fondo.png" id="2_l167v"]
+[ext_resource type="Theme" uid="uid://cpx2c60ubwk1w" path="res://ui/themes/MainTheme.tres" id="3_qv2rq"]
+[ext_resource type="Texture2D" uid="uid://cpaf1ytmfi41w" path="res://assets/synty/ui/Sprites/FantasyMenus/SPR_FantasyMenus_Frame_Bar_05_Left.png" id="4_g8taq"]
+[ext_resource type="Texture2D" uid="uid://ca5llv6xtwtrx" path="res://assets/synty/ui/Sprites/FantasyMenus/SPR_FantasyMenus_Frame_Bar_05_Right.png" id="5_37gde"]
+[ext_resource type="PackedScene" uid="uid://5g7avyuduhds" path="res://ui/elementos/BotonTexturizado.tscn" id="6_b12sp"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_jtbpl")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_l167v")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Titulo" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.05
+anchor_top = 0.05
+anchor_right = 0.55
+anchor_bottom = 0.2
+size_flags_vertical = 0
+theme = ExtResource("3_qv2rq")
+theme_override_colors/font_color = Color(1, 0.909804, 0.411765, 1)
+theme_override_font_sizes/font_size = 80
+text = "Consecuencias"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AspectRatioContainer" type="AspectRatioContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.05
+anchor_top = 0.25
+anchor_right = 0.3
+anchor_bottom = 0.97
+offset_top = -0.152008
+ratio = 0.83
+alignment_vertical = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="AspectRatioContainer"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Separator" type="HBoxContainer" parent="AspectRatioContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_stretch_ratio = 0.6
+theme_override_constants/separation = 0
+
+[node name="SepLeft" type="TextureRect" parent="AspectRatioContainer/VBoxContainer/Separator"]
+texture_filter = 6
+layout_mode = 2
+size_flags_horizontal = 3
+texture = ExtResource("4_g8taq")
+expand_mode = 5
+
+[node name="SepRight" type="TextureRect" parent="AspectRatioContainer/VBoxContainer/Separator"]
+texture_filter = 6
+layout_mode = 2
+size_flags_horizontal = 3
+texture = ExtResource("5_37gde")
+expand_mode = 5
+
+[node name="BtnNewGame" parent="AspectRatioContainer/VBoxContainer" instance=ExtResource("6_b12sp")]
+layout_mode = 2
+size_flags_vertical = 3
+ignore_texture_size = true
+stretch_mode = 0
+text = "Nueva Partida"
+_text = "Nueva Partida"
+
+[node name="BtnLoadGame" parent="AspectRatioContainer/VBoxContainer" instance=ExtResource("6_b12sp")]
+layout_mode = 2
+size_flags_vertical = 3
+ignore_texture_size = true
+stretch_mode = 0
+text = "Cargar partida"
+_text = "Cargar partida"
+
+[node name="BtnSettings" parent="AspectRatioContainer/VBoxContainer" instance=ExtResource("6_b12sp")]
+layout_mode = 2
+size_flags_vertical = 3
+ignore_texture_size = true
+stretch_mode = 0
+text = "Ajustes"
+_text = "Ajustes"
+
+[node name="BtnQuit" parent="AspectRatioContainer/VBoxContainer" instance=ExtResource("6_b12sp")]
+layout_mode = 2
+size_flags_vertical = 3
+ignore_texture_size = true
+stretch_mode = 0
+text = "Salir"
+_text = "Salir"
+
+[connection signal="mouse_entered" from="AspectRatioContainer/VBoxContainer/BtnNewGame" to="." method="_on_btn_mouse_entered"]
+[connection signal="pressed" from="AspectRatioContainer/VBoxContainer/BtnNewGame" to="." method="_on_btn_new_game_pressed"]
+[connection signal="mouse_entered" from="AspectRatioContainer/VBoxContainer/BtnLoadGame" to="." method="_on_btn_mouse_entered"]
+[connection signal="mouse_entered" from="AspectRatioContainer/VBoxContainer/BtnSettings" to="." method="_on_btn_mouse_entered"]
+[connection signal="pressed" from="AspectRatioContainer/VBoxContainer/BtnSettings" to="." method="_on_btn_settings_pressed"]
+[connection signal="mouse_entered" from="AspectRatioContainer/VBoxContainer/BtnQuit" to="." method="_on_btn_mouse_entered"]
+[connection signal="pressed" from="AspectRatioContainer/VBoxContainer/BtnQuit" to="." method="_on_btn_quit_pressed"]

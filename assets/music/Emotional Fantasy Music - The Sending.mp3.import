@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://36klxt7nrmvt"
+path="res://.godot/imported/Emotional Fantasy Music - The Sending.mp3-72cac1f2ee0795d18ab950c7c9366538.mp3str"
+
+[deps]
+
+source_file="res://assets/music/Emotional Fantasy Music - The Sending.mp3"
+dest_files=["res://.godot/imported/Emotional Fantasy Music - The Sending.mp3-72cac1f2ee0795d18ab950c7c9366538.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

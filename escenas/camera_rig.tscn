@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://cme40apd02eq4"]
+
+[ext_resource type="Script" uid="uid://b72epm8f4080a" path="res://escenas/camera_rig.gd" id="1_aq0d3"]
+
+[node name="CameraRig" type="Node3D"]
+script = ExtResource("1_aq0d3")
+
+[node name="Pivot" type="Node3D" parent="."]
+transform = Transform3D(0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 0, 0, 0)
+
+[node name="Tilt" type="Node3D" parent="Pivot"]
+transform = Transform3D(1, 0, 0, 0, 0.707107, -0.707107, 0, 0.707107, 0.707107, 0, 0, 0)
+
+[node name="Camera3D" type="Camera3D" parent="Pivot/Tilt"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 1, -100)
+keep_aspect = 0
+fov = 35.0
+size = 70.0
+near = 0.01

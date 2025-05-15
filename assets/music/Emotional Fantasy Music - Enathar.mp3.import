@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bd2f3iy8mw4ks"
+path="res://.godot/imported/Emotional Fantasy Music - Enathar.mp3-a80aa1d2e7fbdf2abc26e699d1b684c1.mp3str"
+
+[deps]
+
+source_file="res://assets/music/Emotional Fantasy Music - Enathar.mp3"
+dest_files=["res://.godot/imported/Emotional Fantasy Music - Enathar.mp3-a80aa1d2e7fbdf2abc26e699d1b684c1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

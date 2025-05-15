@@ -1,0 +1,399 @@
+[gd_scene load_steps=4 format=3 uid="uid://d2lkyuipsm5cr"]
+
+[ext_resource type="PackedScene" uid="uid://bd21ipd305of2" path="res://ui/elementos/LabelAjustes.tscn" id="1_vrs45"]
+[ext_resource type="Texture2D" uid="uid://c7mlhqo87q1yw" path="res://assets/synty/ui/Sprites/FantasyMenus/SPR_FantasyMenus_Scrollbar_Horizontal_03_Frame.png" id="2_gvbdy"]
+[ext_resource type="Texture2D" uid="uid://djhfvh0q4rc6" path="res://assets/synty/ui/Sprites/FantasyMenus/SPR_FantasyMenus_Frame_Box_Large_02.png" id="2_mio3j"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.085
+anchor_right = 1.0
+anchor_bottom = 0.884
+offset_top = -0.0800018
+offset_bottom = 0.167969
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer"]
+custom_minimum_size = Vector2(1152, 518)
+layout_mode = 2
+
+[node name="TextureRect" parent="ScrollContainer/VBoxContainer" instance=ExtResource("1_vrs45")]
+custom_minimum_size = Vector2(518, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+text = "Velocidad del raton"
+max_font_size = 30
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/TextureRect"]
+texture_filter = 6
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.02
+anchor_top = 0.1
+anchor_right = 2.215
+anchor_bottom = 0.933
+offset_left = -0.200043
+offset_right = 0.0999146
+offset_bottom = 0.0199966
+texture = ExtResource("2_gvbdy")
+expand_mode = 1
+
+[node name="HSlider" type="HSlider" parent="ScrollContainer/VBoxContainer/TextureRect/TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.138
+anchor_top = -0.18
+anchor_right = 0.878
+anchor_bottom = 1.2
+offset_left = 0.0999908
+offset_right = 0.0999756
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect2" parent="ScrollContainer/VBoxContainer" instance=ExtResource("1_vrs45")]
+custom_minimum_size = Vector2(518, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+text = "Invertir eje y"
+max_font_size = 40
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/TextureRect2"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.68
+anchor_top = 0.183
+anchor_right = 1.834
+anchor_bottom = 0.85
+offset_left = -0.240051
+offset_top = 0.0199995
+offset_right = -0.012085
+texture = ExtResource("2_mio3j")
+expand_mode = 1
+
+[node name="CheckBox" type="CheckBox" parent="ScrollContainer/VBoxContainer/TextureRect2/TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.35
+anchor_top = 0.2
+anchor_right = 0.65
+anchor_bottom = 0.8
+icon_alignment = 1
+
+[node name="TextureRect3" parent="ScrollContainer/VBoxContainer" instance=ExtResource("1_vrs45")]
+custom_minimum_size = Vector2(518, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+text = "Abrir Inventario"
+max_font_size = 40
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/TextureRect3"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.68
+anchor_top = 0.183
+anchor_right = 1.834
+anchor_bottom = 0.85
+offset_left = -0.240051
+offset_top = 0.0199995
+offset_right = -0.012085
+texture = ExtResource("2_mio3j")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="ScrollContainer/VBoxContainer/TextureRect3/TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.975
+anchor_bottom = 0.95
+offset_right = 2.0
+text = "I"
+
+[node name="TextureRect4" parent="ScrollContainer/VBoxContainer" instance=ExtResource("1_vrs45")]
+custom_minimum_size = Vector2(518, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+text = "Abrir Menú de Juego"
+max_font_size = 30
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/TextureRect4"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.68
+anchor_top = 0.183
+anchor_right = 1.834
+anchor_bottom = 0.85
+offset_left = -0.240051
+offset_top = 0.0199995
+offset_right = -0.012085
+texture = ExtResource("2_mio3j")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="ScrollContainer/VBoxContainer/TextureRect4/TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.975
+anchor_bottom = 0.95
+text = "Esc"
+
+[node name="TextureRect5" parent="ScrollContainer/VBoxContainer" instance=ExtResource("1_vrs45")]
+custom_minimum_size = Vector2(518, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+text = "Abrir Hoja de Personaje"
+max_font_size = 30
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/TextureRect5"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.68
+anchor_top = 0.183
+anchor_right = 1.834
+anchor_bottom = 0.85
+offset_left = -0.240051
+offset_top = 0.0199995
+offset_right = -0.012085
+texture = ExtResource("2_mio3j")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="ScrollContainer/VBoxContainer/TextureRect5/TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.975
+anchor_bottom = 0.95
+text = "P"
+
+[node name="TextureRect6" parent="ScrollContainer/VBoxContainer" instance=ExtResource("1_vrs45")]
+custom_minimum_size = Vector2(518, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+text = "Abrir Diario"
+max_font_size = 40
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/TextureRect6"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.68
+anchor_top = 0.183
+anchor_right = 1.834
+anchor_bottom = 0.85
+offset_left = -0.240051
+offset_top = 0.0199995
+offset_right = -0.012085
+texture = ExtResource("2_mio3j")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="ScrollContainer/VBoxContainer/TextureRect6/TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.975
+anchor_bottom = 0.95
+text = "M"
+
+[node name="TextureRect7" parent="ScrollContainer/VBoxContainer" instance=ExtResource("1_vrs45")]
+custom_minimum_size = Vector2(518, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+text = "Acercar Camara"
+max_font_size = 40
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/TextureRect7"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.68
+anchor_top = 0.183
+anchor_right = 1.834
+anchor_bottom = 0.85
+offset_left = -0.240051
+offset_top = 0.0199995
+offset_right = -0.012085
+texture = ExtResource("2_mio3j")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="ScrollContainer/VBoxContainer/TextureRect7/TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.975
+anchor_bottom = 0.95
+text = "WU"
+
+[node name="TextureRect8" parent="ScrollContainer/VBoxContainer" instance=ExtResource("1_vrs45")]
+custom_minimum_size = Vector2(518, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+text = "Alejar Camara"
+max_font_size = 40
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/TextureRect8"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.68
+anchor_top = 0.183
+anchor_right = 1.834
+anchor_bottom = 0.85
+offset_left = -0.240051
+offset_top = 0.0199995
+offset_right = -0.012085
+texture = ExtResource("2_mio3j")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="ScrollContainer/VBoxContainer/TextureRect8/TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.975
+anchor_bottom = 0.95
+text = "WD"
+
+[node name="TextureRect9" parent="ScrollContainer/VBoxContainer" instance=ExtResource("1_vrs45")]
+custom_minimum_size = Vector2(518, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+text = "Centrar Camara"
+max_font_size = 40
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/TextureRect9"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.68
+anchor_top = 0.183
+anchor_right = 1.834
+anchor_bottom = 0.85
+offset_left = -0.240051
+offset_top = 0.0199995
+offset_right = -0.012085
+texture = ExtResource("2_mio3j")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="ScrollContainer/VBoxContainer/TextureRect9/TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.975
+anchor_bottom = 0.95
+text = "WM"
+
+[node name="TextureRect10" parent="ScrollContainer/VBoxContainer" instance=ExtResource("1_vrs45")]
+custom_minimum_size = Vector2(518, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+text = "Girar Camara Derecha"
+max_font_size = 25
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/TextureRect10"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.68
+anchor_top = 0.183
+anchor_right = 1.834
+anchor_bottom = 0.85
+offset_left = -0.240051
+offset_top = 0.0199995
+offset_right = -0.012085
+texture = ExtResource("2_mio3j")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="ScrollContainer/VBoxContainer/TextureRect10/TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.975
+anchor_bottom = 0.95
+text = "E"
+
+[node name="TextureRect11" parent="ScrollContainer/VBoxContainer" instance=ExtResource("1_vrs45")]
+custom_minimum_size = Vector2(518, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+text = "Girar Camara Izquierda"
+max_font_size = 25
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/TextureRect11"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.68
+anchor_top = 0.183
+anchor_right = 1.834
+anchor_bottom = 0.85
+offset_left = -0.240051
+offset_top = 0.0199995
+offset_right = -0.012085
+texture = ExtResource("2_mio3j")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="ScrollContainer/VBoxContainer/TextureRect11/TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.975
+anchor_bottom = 0.95
+text = "Q"
+
+[node name="TextureRect12" parent="ScrollContainer/VBoxContainer" instance=ExtResource("1_vrs45")]
+custom_minimum_size = Vector2(518, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+text = "Interactuar"
+max_font_size = 40
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/TextureRect12"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.68
+anchor_top = 0.183
+anchor_right = 1.757
+anchor_bottom = 0.85
+offset_left = -0.240051
+offset_top = 0.0199995
+offset_right = 39.874
+texture = ExtResource("2_mio3j")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="ScrollContainer/VBoxContainer/TextureRect12/TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.975
+anchor_bottom = 0.95
+text = "F"
+
+[node name="TextureRect13" parent="ScrollContainer/VBoxContainer" instance=ExtResource("1_vrs45")]
+custom_minimum_size = Vector2(518, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+text = "Ocultarse"
+max_font_size = 40
+
+[node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/TextureRect13"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.68
+anchor_top = 0.183
+anchor_right = 1.834
+anchor_bottom = 0.85
+offset_left = -0.240051
+offset_top = 0.0199995
+offset_right = -0.012085
+texture = ExtResource("2_mio3j")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="ScrollContainer/VBoxContainer/TextureRect13/TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.975
+anchor_bottom = 0.95
+text = "SHIFT"

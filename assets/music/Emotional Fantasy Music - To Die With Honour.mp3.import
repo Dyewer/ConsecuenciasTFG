@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d56jpko5l0oe"
+path="res://.godot/imported/Emotional Fantasy Music - To Die With Honour.mp3-95334b23641b4de921b5525b97a5b5ad.mp3str"
+
+[deps]
+
+source_file="res://assets/music/Emotional Fantasy Music - To Die With Honour.mp3"
+dest_files=["res://.godot/imported/Emotional Fantasy Music - To Die With Honour.mp3-95334b23641b4de921b5525b97a5b5ad.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

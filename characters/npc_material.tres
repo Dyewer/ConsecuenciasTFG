@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://dafucmt1532c4"]
+
+[ext_resource type="Texture2D" uid="uid://ciy8ihlfmhnr6" path="res://assets/synty/textures/Polygon_Fantasy_Characters_Texture_02_A.png" id="1_dpxti"]
+
+[resource]
+albedo_texture = ExtResource("1_dpxti")

@@ -1,0 +1,112 @@
+[gd_scene load_steps=11 format=3 uid="uid://d0h1jr8drbiqg"]
+
+[ext_resource type="Script" uid="uid://vr76silsko5e" path="res://ui/ajustes.gd" id="1_l6hyt"]
+[ext_resource type="Texture2D" uid="uid://dsl7eite26bqx" path="res://assets/backgrounds/fondo2.png" id="1_ocium"]
+[ext_resource type="PackedScene" uid="uid://bbwyd7q581iac" path="res://ui/ajustes/Graficos.tscn" id="2_ahkvg"]
+[ext_resource type="Theme" uid="uid://cpx2c60ubwk1w" path="res://ui/themes/MainTheme.tres" id="2_b2dkf"]
+[ext_resource type="PackedScene" uid="uid://cctq8r8bdvf8e" path="res://ui/ajustes/Imagen.tscn" id="4_xnmo3"]
+[ext_resource type="PackedScene" uid="uid://df48wdk8fbhvr" path="res://ui/ajustes/Sonido.tscn" id="5_a5u1b"]
+[ext_resource type="PackedScene" uid="uid://d2lkyuipsm5cr" path="res://ui/ajustes/Controles.tscn" id="6_b2dkf"]
+[ext_resource type="Texture2D" uid="uid://bw0hvufajafwn" path="res://assets/synty/ui/Sprites/Icons_FantasyMenus/SPR_FantasyMenus_Icon_Arrow_02_left_64x64.png" id="7_y8yli"]
+[ext_resource type="Texture2D" uid="uid://bkhqh5dkah6p3" path="res://assets/synty/ui/Sprites/Icons_FantasyMenus/SPR_FantasyMenus_Icon_Arrow_02_64x64.png" id="8_l6hyt"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1hb7v"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_l6hyt")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ocium")
+expand_mode = 1
+
+[node name="TabContainer" type="TabContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = -9.0
+offset_bottom = -10.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_b2dkf")
+current_tab = 0
+
+[node name="Graficos" parent="TabContainer" instance=ExtResource("2_ahkvg")]
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="Imagen" parent="TabContainer" instance=ExtResource("4_xnmo3")]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="Sonido" parent="TabContainer" instance=ExtResource("5_a5u1b")]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 2
+
+[node name="Controles" parent="TabContainer" instance=ExtResource("6_b2dkf")]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 3
+
+[node name="ButtonContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.378
+anchor_top = 0.883
+anchor_right = 0.622
+anchor_bottom = 1.0
+offset_left = 0.543976
+offset_top = -0.184021
+offset_right = -0.544067
+offset_bottom = -4.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_vertical = 8
+alignment = 1
+
+[node name="BtnBack" type="Button" parent="ButtonContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 8
+text = "Volver"
+icon = ExtResource("7_y8yli")
+
+[node name="VSeparator" type="VSeparator" parent="ButtonContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/separator = SubResource("StyleBoxFlat_1hb7v")
+
+[node name="BtnSave" type="Button" parent="ButtonContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 8
+text = "Guardar"
+icon = ExtResource("8_l6hyt")
+icon_alignment = 2
+
+[node name="GuardarCambios" type="ConfirmationDialog" parent="."]
+theme = ExtResource("2_b2dkf")
+ok_button_text = "Guardar"
+cancel_button_text = "Cancelar"
+
+[connection signal="pressed" from="ButtonContainer/BtnBack" to="." method="_on_btn_back_pressed"]
+[connection signal="pressed" from="ButtonContainer/BtnSave" to="." method="_on_btn_save_pressed"]
+[connection signal="canceled" from="GuardarCambios" to="." method="_on_save_changes_canceled"]
+[connection signal="confirmed" from="GuardarCambios" to="." method="_on_save_changes_confirmed"]
+[connection signal="custom_action" from="GuardarCambios" to="." method="_on_guardar_cambios_custom_action"]

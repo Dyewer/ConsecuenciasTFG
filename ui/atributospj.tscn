@@ -1,0 +1,819 @@
+[gd_scene load_steps=12 format=3 uid="uid://kjnd7rih0233"]
+
+[ext_resource type="Texture2D" uid="uid://b13wu1m8alwum" path="res://assets/synty/ui/Sprites/FantasyMenus/SPR_FantasyMenus_Menu_Button_03_Frame.png" id="1_nm7eb"]
+[ext_resource type="Theme" uid="uid://cpx2c60ubwk1w" path="res://ui/themes/MainTheme.tres" id="2_fbkpk"]
+[ext_resource type="Texture2D" uid="uid://cnqs26yldrdjg" path="res://assets/synty/ui/Sprites/FantasyMenus/SPR_FantasyMenus_Menu_Button_11_Frame.png" id="3_tatn3"]
+[ext_resource type="Texture2D" uid="uid://du0rpa1ryjc5s" path="res://assets/synty/ui/Sprites/FantasyMenus/SPR_FantasyMenus_Frame_Box_Small_02.png" id="4_w23jp"]
+[ext_resource type="Texture2D" uid="uid://8ofhw6saacla" path="res://assets/synty/ui/Sprites/FantasyMenus/SPR_FantasyMenus_Menu_Item_03_Bottom.png" id="5_ccsji"]
+[ext_resource type="Texture2D" uid="uid://c03jov31xeu03" path="res://assets/synty/ui/Sprites/FantasyMenus/SPR_FantasyMenus_Menu_Button_15_Frame.png" id="6_8ifvr"]
+[ext_resource type="Texture2D" uid="uid://cy6it75l43rwn" path="res://assets/synty/ui/Sprites/FantasyMenus/SPR_FantasyMenus_Frame_Bar_06_Vertical.png" id="7_lhb4w"]
+[ext_resource type="Texture2D" uid="uid://bw0hvufajafwn" path="res://assets/synty/ui/Sprites/Icons_FantasyMenus/SPR_FantasyMenus_Icon_Arrow_02_left_64x64.png" id="8_w23jp"]
+[ext_resource type="Texture2D" uid="uid://bkhqh5dkah6p3" path="res://assets/synty/ui/Sprites/Icons_FantasyMenus/SPR_FantasyMenus_Icon_Arrow_02_64x64.png" id="9_ccsji"]
+[ext_resource type="Texture2D" uid="uid://b4i7wdiih5w5d" path="res://assets/synty/ui/Sprites/FantasyMenus/SPR_FantasyMenus_Frame_Popup_07_Left.png" id="10_8ifvr"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lhb4w"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="AspectRatioContainer" type="AspectRatioContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 520.0
+offset_right = 146.0
+offset_bottom = 639.0
+texture = ExtResource("10_8ifvr")
+expand_mode = 1
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 146.0
+offset_top = 520.0
+offset_right = 272.0
+offset_bottom = 639.0
+texture = ExtResource("10_8ifvr")
+expand_mode = 1
+flip_h = true
+
+[node name="TextureRect3" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 878.0
+offset_top = 520.0
+offset_right = 1004.0
+offset_bottom = 639.0
+texture = ExtResource("10_8ifvr")
+expand_mode = 1
+
+[node name="TextureRect4" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 1004.0
+offset_top = 520.0
+offset_right = 1130.0
+offset_bottom = 639.0
+texture = ExtResource("10_8ifvr")
+expand_mode = 1
+flip_h = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_stretch_ratio = 0.9
+
+[node name="AspectRatioContainer" type="AspectRatioContainer" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+alignment_horizontal = 0
+alignment_vertical = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/HBoxContainer/AspectRatioContainer"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="TextureRect7" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer"]
+custom_minimum_size = Vector2(400, 60)
+layout_mode = 2
+texture = ExtResource("1_nm7eb")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer/TextureRect7"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.252
+anchor_top = 0.233
+anchor_right = 0.75
+anchor_bottom = 0.867
+offset_left = 0.199997
+offset_top = 0.0199995
+offset_right = -3.05176e-05
+offset_bottom = -0.0200043
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 33
+text = "ATRIBUTOS"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer/TextureRect7"]
+layout_mode = 0
+offset_left = 435.0
+offset_top = 68.0
+offset_right = 513.0
+offset_bottom = 132.0
+texture = ExtResource("4_w23jp")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer/TextureRect7/TextureRect"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 12.0
+offset_right = 59.0
+offset_bottom = 52.0
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 33
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer"]
+custom_minimum_size = Vector2(400, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource("3_tatn3")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer/TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.252
+anchor_top = 0.233
+anchor_right = 0.75
+anchor_bottom = 0.867
+offset_left = 0.199997
+offset_top = 0.0199995
+offset_right = -3.05176e-05
+offset_bottom = -0.0200043
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 33
+text = "DESTREZA"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect2" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer"]
+custom_minimum_size = Vector2(400, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource("3_tatn3")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer/TextureRect2"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.252
+anchor_top = 0.233
+anchor_right = 0.75
+anchor_bottom = 0.867
+offset_left = 0.199997
+offset_top = 0.0199995
+offset_right = -3.05176e-05
+offset_bottom = -0.0200043
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 33
+text = "DESTREZA"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer/TextureRect2"]
+layout_mode = 0
+offset_left = 435.0
+offset_top = -2.0
+offset_right = 513.0
+offset_bottom = 62.0
+texture = ExtResource("4_w23jp")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer/TextureRect2/TextureRect"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 12.0
+offset_right = 59.0
+offset_bottom = 52.0
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 33
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect3" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer"]
+custom_minimum_size = Vector2(400, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource("3_tatn3")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer/TextureRect3"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.252
+anchor_top = 0.233
+anchor_right = 0.75
+anchor_bottom = 0.867
+offset_left = 0.199997
+offset_top = 0.0199995
+offset_right = -3.05176e-05
+offset_bottom = -0.0200043
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 33
+text = "DESTREZA"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer/TextureRect3"]
+layout_mode = 0
+offset_left = 436.0
+offset_top = -2.0
+offset_right = 514.0
+offset_bottom = 62.0
+texture = ExtResource("4_w23jp")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer/TextureRect3/TextureRect"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 12.0
+offset_right = 59.0
+offset_bottom = 52.0
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 33
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect4" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer"]
+custom_minimum_size = Vector2(400, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource("3_tatn3")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer/TextureRect4"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.252
+anchor_top = 0.233
+anchor_right = 0.75
+anchor_bottom = 0.867
+offset_left = 0.199997
+offset_top = 0.0199995
+offset_right = -3.05176e-05
+offset_bottom = -0.0200043
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 33
+text = "DESTREZA"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer/TextureRect4"]
+layout_mode = 0
+offset_left = 436.0
+offset_top = -2.0
+offset_right = 514.0
+offset_bottom = 62.0
+texture = ExtResource("4_w23jp")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer/TextureRect4/TextureRect"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 12.0
+offset_right = 59.0
+offset_bottom = 52.0
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 33
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect5" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer"]
+custom_minimum_size = Vector2(400, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource("3_tatn3")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer/TextureRect5"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.252
+anchor_top = 0.233
+anchor_right = 0.75
+anchor_bottom = 0.867
+offset_left = 0.199997
+offset_top = 0.0199995
+offset_right = -3.05176e-05
+offset_bottom = -0.0200043
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 33
+text = "DESTREZA"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer/TextureRect5"]
+layout_mode = 0
+offset_left = 436.0
+offset_top = -2.0
+offset_right = 514.0
+offset_bottom = 62.0
+texture = ExtResource("4_w23jp")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer/TextureRect5/TextureRect"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 12.0
+offset_right = 59.0
+offset_bottom = 52.0
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 33
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect6" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer"]
+custom_minimum_size = Vector2(400, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource("3_tatn3")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer/TextureRect6"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.252
+anchor_top = 0.233
+anchor_right = 0.75
+anchor_bottom = 0.867
+offset_left = 0.199997
+offset_top = 0.0199995
+offset_right = -3.05176e-05
+offset_bottom = -0.0200043
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 33
+text = "DESTREZA"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer/TextureRect6"]
+layout_mode = 0
+offset_left = 436.0
+offset_top = -2.0
+offset_right = 514.0
+offset_bottom = 62.0
+texture = ExtResource("4_w23jp")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer/VBoxContainer/TextureRect6/TextureRect"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 12.0
+offset_right = 59.0
+offset_bottom = 52.0
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 33
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect3" type="TextureRect" parent="VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(80, 0)
+layout_mode = 2
+texture = ExtResource("7_lhb4w")
+expand_mode = 1
+
+[node name="AspectRatioContainer2" type="AspectRatioContainer" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+alignment_horizontal = 0
+alignment_vertical = 0
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer"]
+layout_mode = 2
+theme_override_constants/separation = 23
+
+[node name="TextureRect7" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(400, 60)
+layout_mode = 2
+texture = ExtResource("1_nm7eb")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect7"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.252
+anchor_top = 0.233
+anchor_right = 0.75
+anchor_bottom = 0.867
+offset_left = 0.199997
+offset_top = 0.0199995
+offset_right = -3.05176e-05
+offset_bottom = -0.0200043
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 33
+text = "Habilidades"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(400, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource("5_ccsji")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.231
+anchor_top = -0.217
+anchor_right = 0.729
+anchor_bottom = 0.417
+offset_left = 0.0999985
+offset_top = 0.0200014
+offset_right = -0.100006
+offset_bottom = -0.0200024
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 23
+text = "Sigilo"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect"]
+layout_mode = 0
+offset_left = 437.0
+offset_top = -31.0
+offset_right = 515.0
+offset_bottom = 33.0
+texture = ExtResource("6_8ifvr")
+expand_mode = 1
+flip_h = true
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect/TextureRect"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 12.0
+offset_right = 59.0
+offset_bottom = 52.0
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 33
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect2" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(400, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource("5_ccsji")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect2"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.231
+anchor_top = -0.217
+anchor_right = 0.729
+anchor_bottom = 0.417
+offset_left = 0.0999985
+offset_top = 0.0200014
+offset_right = -0.100006
+offset_bottom = -0.0200024
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 23
+text = "Salto"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect2"]
+layout_mode = 0
+offset_left = 437.0
+offset_top = -31.0
+offset_right = 515.0
+offset_bottom = 33.0
+texture = ExtResource("6_8ifvr")
+expand_mode = 1
+flip_h = true
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect2/TextureRect"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 12.0
+offset_right = 59.0
+offset_bottom = 52.0
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 33
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect3" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(400, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource("5_ccsji")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect3"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.231
+anchor_top = -0.217
+anchor_right = 0.729
+anchor_bottom = 0.417
+offset_left = 0.0999985
+offset_top = 0.0200014
+offset_right = -0.100006
+offset_bottom = -0.0200024
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 23
+text = "Robar"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect3"]
+layout_mode = 0
+offset_left = 437.0
+offset_top = -31.0
+offset_right = 515.0
+offset_bottom = 33.0
+texture = ExtResource("6_8ifvr")
+expand_mode = 1
+flip_h = true
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect3/TextureRect"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 12.0
+offset_right = 59.0
+offset_bottom = 52.0
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 33
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect4" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(400, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource("5_ccsji")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect4"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.231
+anchor_top = -0.217
+anchor_right = 0.729
+anchor_bottom = 0.417
+offset_left = 0.0999985
+offset_top = 0.0200014
+offset_right = -0.100006
+offset_bottom = -0.0200024
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 23
+text = "Forzar Cerraduras"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect4"]
+layout_mode = 0
+offset_left = 437.0
+offset_top = -31.0
+offset_right = 515.0
+offset_bottom = 33.0
+texture = ExtResource("6_8ifvr")
+expand_mode = 1
+flip_h = true
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect4/TextureRect"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 12.0
+offset_right = 59.0
+offset_bottom = 52.0
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 33
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect5" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(400, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource("5_ccsji")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect5"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.231
+anchor_top = -0.217
+anchor_right = 0.729
+anchor_bottom = 0.417
+offset_left = 0.0999985
+offset_top = 0.0200014
+offset_right = -0.100006
+offset_bottom = -0.0200024
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 23
+text = "Elocuencia"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect5"]
+layout_mode = 0
+offset_left = 437.0
+offset_top = -31.0
+offset_right = 515.0
+offset_bottom = 33.0
+texture = ExtResource("6_8ifvr")
+expand_mode = 1
+flip_h = true
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect5/TextureRect"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 12.0
+offset_right = 59.0
+offset_bottom = 52.0
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 33
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect6" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(400, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource("5_ccsji")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect6"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.231
+anchor_top = -0.217
+anchor_right = 0.729
+anchor_bottom = 0.417
+offset_left = 0.0999985
+offset_top = 0.0200014
+offset_right = -0.100006
+offset_bottom = -0.0200024
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 23
+text = "Conocimiento"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect6"]
+layout_mode = 0
+offset_left = 437.0
+offset_top = -31.0
+offset_right = 515.0
+offset_bottom = 33.0
+texture = ExtResource("6_8ifvr")
+expand_mode = 1
+flip_h = true
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect6/TextureRect"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 12.0
+offset_right = 59.0
+offset_bottom = 52.0
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 33
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect8" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(400, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource("5_ccsji")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect8"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.231
+anchor_top = -0.217
+anchor_right = 0.729
+anchor_bottom = 0.417
+offset_left = 0.0999985
+offset_top = 0.0200014
+offset_right = -0.100006
+offset_bottom = -0.0200024
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 23
+text = "Ocultarse"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect8"]
+layout_mode = 0
+offset_left = 437.0
+offset_top = -31.0
+offset_right = 515.0
+offset_bottom = 33.0
+texture = ExtResource("6_8ifvr")
+expand_mode = 1
+flip_h = true
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect8/TextureRect"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 12.0
+offset_right = 59.0
+offset_bottom = 52.0
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 33
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect9" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer"]
+custom_minimum_size = Vector2(400, 60)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource("5_ccsji")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect9"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.231
+anchor_top = -0.217
+anchor_right = 0.729
+anchor_bottom = 0.417
+offset_left = 0.0999985
+offset_top = 0.0200014
+offset_right = -0.100006
+offset_bottom = -0.0200024
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 23
+text = "Advertir"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect9"]
+layout_mode = 0
+offset_left = 437.0
+offset_top = -31.0
+offset_right = 515.0
+offset_bottom = 33.0
+texture = ExtResource("6_8ifvr")
+expand_mode = 1
+flip_h = true
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/AspectRatioContainer2/ScrollContainer/VBoxContainer/TextureRect9/TextureRect"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 12.0
+offset_right = 59.0
+offset_bottom = 52.0
+theme = ExtResource("2_fbkpk")
+theme_override_font_sizes/font_size = 33
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ButtonContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 8
+size_flags_stretch_ratio = 0.1
+alignment = 1
+
+[node name="BtnBack" type="Button" parent="VBoxContainer/ButtonContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 8
+text = "Volver"
+icon = ExtResource("8_w23jp")
+
+[node name="VSeparator" type="VSeparator" parent="VBoxContainer/ButtonContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/separator = SubResource("StyleBoxFlat_lhb4w")
+
+[node name="BtnStart" type="Button" parent="VBoxContainer/ButtonContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 8
+text = "Confirmar"
+icon = ExtResource("9_ccsji")
+icon_alignment = 2

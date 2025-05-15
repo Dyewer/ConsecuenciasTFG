@@ -1,0 +1,29 @@
+[gd_scene load_steps=7 format=3 uid="uid://c8s4jw188lvlh"]
+
+[ext_resource type="Script" uid="uid://dcmj7fhqpd6bx" path="res://levels/world.gd" id="1_0d5eo"]
+[ext_resource type="PackedScene" uid="uid://cu0185avwl1d2" path="res://escenas/DayNightEnv.scn" id="2_lely3"]
+[ext_resource type="PackedScene" uid="uid://de84prf1r3ndn" path="res://levels/Kirnath.tscn" id="3_l1j2j"]
+[ext_resource type="PackedScene" uid="uid://chnt18bj4ntnn" path="res://characters/player.tscn" id="4_rw0xj"]
+[ext_resource type="PackedScene" uid="uid://cme40apd02eq4" path="res://escenas/camera_rig.tscn" id="5_t2w4v"]
+[ext_resource type="PackedScene" uid="uid://ji0bx6jgwtla" path="res://ui/PopupInGameMenu.tscn" id="6_lely3"]
+
+[node name="World" type="Node3D"]
+script = ExtResource("1_0d5eo")
+
+[node name="DayNightEnv" parent="." instance=ExtResource("2_lely3")]
+
+[node name="Kirnath" parent="." instance=ExtResource("3_l1j2j")]
+
+[node name="Player" parent="." instance=ExtResource("4_rw0xj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 665, 54, 578)
+
+[node name="CameraRig" parent="." node_paths=PackedStringArray("target") instance=ExtResource("5_t2w4v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 665, 54, 578)
+target = NodePath("../Player")
+zoom_step = 30
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="PopupInGameMenu" parent="CanvasLayer" instance=ExtResource("6_lely3")]
+process_mode = 2
+visible = false

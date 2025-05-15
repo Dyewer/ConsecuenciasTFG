@@ -1,0 +1,23 @@
+[gd_scene load_steps=6 format=3 uid="uid://lrv3cja4act6"]
+
+[ext_resource type="PackedScene" uid="uid://btntmm6huhv3n" path="res://assets/synty/knights/Character_Knight_01.fbx" id="1_214g0"]
+[ext_resource type="PackedScene" uid="uid://c8it776x7s6qa" path="res://assets/synty/knights/Character_Knight_02.fbx" id="2_grf76"]
+[ext_resource type="PackedScene" uid="uid://bvrpsiab8fgmo" path="res://assets/synty/knights/Character_Knight_03.fbx" id="3_q1dn1"]
+[ext_resource type="PackedScene" uid="uid://d0c6vjkdxx61f" path="res://assets/synty/knights/Character_Soldier_01.fbx" id="4_h63wa"]
+[ext_resource type="PackedScene" uid="uid://lkhnncqm17vp" path="res://assets/synty/knights/Character_Soldier_02.fbx" id="5_ngg7t"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Character_Knight_01" parent="." instance=ExtResource("1_214g0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0)
+
+[node name="Character_Knight_02" parent="." instance=ExtResource("2_grf76")]
+
+[node name="Character_Knight_03" parent="." instance=ExtResource("3_q1dn1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
+
+[node name="Character_Soldier_01" parent="." instance=ExtResource("4_h63wa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, 0)
+
+[node name="Character_Soldier_02" parent="." instance=ExtResource("5_ngg7t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 0)

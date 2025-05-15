@@ -1,0 +1,70 @@
+[gd_scene load_steps=17 format=3 uid="uid://cugh1v876mace"]
+
+[ext_resource type="PackedScene" uid="uid://b1cruqjo6km13" path="res://assets/synty/dungeon_pack/characters/Character_Goblin_Female.fbx" id="1_vrm1u"]
+[ext_resource type="PackedScene" uid="uid://b5fnkl14txb1p" path="res://assets/synty/dungeon_pack/characters/Character_Goblin_Male.fbx" id="2_gpovq"]
+[ext_resource type="PackedScene" uid="uid://ceopi5gicjgu1" path="res://assets/synty/dungeon_pack/characters/Character_Goblin_Shaman.fbx" id="3_c4jpv"]
+[ext_resource type="PackedScene" uid="uid://qq6s6y58qc3b" path="res://assets/synty/dungeon_pack/characters/Character_Goblin_WarChief.fbx" id="4_6jhi7"]
+[ext_resource type="PackedScene" uid="uid://co0rmuy3c0t2u" path="res://assets/synty/dungeon_pack/characters/Character_Goblin_Warrior_Female.fbx" id="5_ci1kn"]
+[ext_resource type="PackedScene" uid="uid://cb5dhponfngd2" path="res://assets/synty/dungeon_pack/characters/Character_Goblin_Warrior_Male.fbx" id="6_xrdvw"]
+[ext_resource type="PackedScene" uid="uid://ca4uh8bri6t1n" path="res://assets/synty/dungeon_pack/characters/Character_Ghost_01.fbx" id="7_7j5bo"]
+[ext_resource type="PackedScene" uid="uid://dhu0ju1iwh0cl" path="res://assets/synty/dungeon_pack/characters/Character_Ghost_02.fbx" id="8_26wpd"]
+[ext_resource type="PackedScene" uid="uid://duxjv7aqnukxh" path="res://assets/synty/dungeon_pack/characters/Character_Hero_Knight_Female.fbx" id="9_x7axw"]
+[ext_resource type="PackedScene" uid="uid://b5euyce1k0t32" path="res://assets/synty/dungeon_pack/characters/Character_Hero_Knight_Male.fbx" id="10_q8tyw"]
+[ext_resource type="PackedScene" uid="uid://cyelghavcf3gp" path="res://assets/synty/dungeon_pack/characters/Character_Rock_Golem.fbx" id="11_03qvu"]
+[ext_resource type="PackedScene" uid="uid://c43xsysogjijg" path="res://assets/synty/dungeon_pack/characters/Character_Skeleton_Knight.fbx" id="12_eqg6c"]
+[ext_resource type="PackedScene" uid="uid://obqptp080vb" path="res://assets/synty/dungeon_pack/characters/Character_Skeleton_Slave_01.fbx" id="13_2xhs3"]
+[ext_resource type="PackedScene" uid="uid://d0yfmqho4sgpa" path="res://assets/synty/dungeon_pack/characters/Character_Skeleton_Soldier_01.fbx" id="14_4s7n6"]
+[ext_resource type="PackedScene" uid="uid://dbgkfmlamgc5r" path="res://assets/synty/dungeon_pack/characters/Character_Skeleton_Soldier_02.fbx" id="15_qckyb"]
+[ext_resource type="PackedScene" uid="uid://b4xcpy818g8kl" path="res://assets/synty/dungeon_pack/characters/Character_Tormented_Soul.fbx" id="16_0aksg"]
+
+[node name="Characters" type="Node3D"]
+
+[node name="Character_Goblin_Female" parent="." instance=ExtResource("1_vrm1u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2)
+
+[node name="Character_Goblin_Male" parent="." instance=ExtResource("2_gpovq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, 0, -2)
+
+[node name="Character_Goblin_Shaman" parent="." instance=ExtResource("3_c4jpv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, 0, -2)
+
+[node name="Character_Goblin_WarChief" parent="." instance=ExtResource("4_6jhi7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -2)
+
+[node name="Character_Goblin_Warrior_Female" parent="." instance=ExtResource("5_ci1kn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, 0, -2)
+
+[node name="Character_Goblin_Warrior_Male" parent="." instance=ExtResource("6_xrdvw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -2)
+
+[node name="Character_Ghost_01" parent="." instance=ExtResource("7_7j5bo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, 0, 0)
+
+[node name="Character_Ghost_02" parent="." instance=ExtResource("8_26wpd")]
+
+[node name="Character_Hero_Knight_Female" parent="." instance=ExtResource("9_x7axw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, 0, 0)
+
+[node name="Character_Hero_Knight_Male" parent="." instance=ExtResource("10_q8tyw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 0)
+
+[node name="Character_Rock_Golem" parent="." instance=ExtResource("11_03qvu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2)
+
+[node name="Character_Skeleton_Knight" parent="." instance=ExtResource("12_eqg6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5)
+
+[node name="Character_Skeleton_Knight2" parent="." instance=ExtResource("12_eqg6c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, 0, -5)
+
+[node name="Character_Skeleton_Slave_01" parent="." instance=ExtResource("13_2xhs3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5, 0, -5)
+
+[node name="Character_Skeleton_Soldier_01" parent="." instance=ExtResource("14_4s7n6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -5)
+
+[node name="Character_Skeleton_Soldier_02" parent="." instance=ExtResource("15_qckyb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -5)
+
+[node name="Character_Tormented_Soul" parent="." instance=ExtResource("16_0aksg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, 0, 2)

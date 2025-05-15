@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://dajqsrycwb7ev"]
+
+[ext_resource type="Script" uid="uid://4qufy7vbab36" path="res://ui/utils/mascaras.gd" id="1_h5w3n"]
+[ext_resource type="Texture2D" uid="uid://cm5b8m620i1jq" path="res://assets/synty/ui/Sprites/FantasyMenus/SPR_FantasyMenus_Menu_Button_01_Background.png" id="2_h5w3n"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_h5w3n")
+path = "ui/Boton01TexturizadoMask"
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_h5w3n")

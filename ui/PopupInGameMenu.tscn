@@ -1,0 +1,89 @@
+[gd_scene load_steps=7 format=3 uid="uid://ji0bx6jgwtla"]
+
+[ext_resource type="Theme" uid="uid://cpx2c60ubwk1w" path="res://ui/themes/MainTheme.tres" id="1_4s36u"]
+[ext_resource type="StyleBox" uid="uid://brx64f81lxdxw" path="res://ui/Popup.stylebox" id="1_bhh4w"]
+[ext_resource type="Script" uid="uid://dvbojy85lofk4" path="res://ui/popup_ingame_menu.gd" id="2_gr03a"]
+[ext_resource type="Texture2D" uid="uid://docnex5c70548" path="res://assets/backgrounds/town_popup_01.png" id="2_iphno"]
+[ext_resource type="Texture2D" uid="uid://b2envnf77u2fv" path="res://assets/backgrounds/borde_popup.png" id="3_ftjhl"]
+[ext_resource type="PackedScene" uid="uid://5g7avyuduhds" path="res://ui/elementos/BotonTexturizado.tscn" id="4_ftjhl"]
+
+[node name="PopupInGameMenu" type="PanelContainer"]
+custom_minimum_size = Vector2(350, 400)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = -250.0
+offset_right = 200.0
+offset_bottom = 250.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_4s36u")
+script = ExtResource("2_gr03a")
+
+[node name="Fondo" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("2_iphno")
+expand_mode = 1
+
+[node name="Oscurecidos" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("3_ftjhl")
+expand_mode = 1
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+layout_mode = 2
+theme_override_styles/panel = ExtResource("1_bhh4w")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="BtnReanudar" parent="PanelContainer/VBoxContainer" instance=ExtResource("4_ftjhl")]
+custom_minimum_size = Vector2(200, 60)
+layout_mode = 2
+ignore_texture_size = true
+stretch_mode = 5
+text = "Reanudar partida"
+_text = "Reanudar partida"
+
+[node name="BtnGuardar" parent="PanelContainer/VBoxContainer" instance=ExtResource("4_ftjhl")]
+custom_minimum_size = Vector2(200, 50)
+layout_mode = 2
+ignore_texture_size = true
+stretch_mode = 5
+text = "Guardar partida"
+_text = "Guardar partida"
+
+[node name="BtnGuardarSalir" parent="PanelContainer/VBoxContainer" instance=ExtResource("4_ftjhl")]
+custom_minimum_size = Vector2(200, 50)
+layout_mode = 2
+ignore_texture_size = true
+stretch_mode = 5
+text = "Guardar y salir"
+_text = "Guardar y salir"
+
+[node name="BtnTerminar" parent="PanelContainer/VBoxContainer" instance=ExtResource("4_ftjhl")]
+custom_minimum_size = Vector2(200, 50)
+layout_mode = 2
+ignore_texture_size = true
+stretch_mode = 5
+text = "Terminar partida"
+_text = "Terminar partida"
+
+[node name="BtnExit" parent="PanelContainer/VBoxContainer" instance=ExtResource("4_ftjhl")]
+custom_minimum_size = Vector2(200, 50)
+layout_mode = 2
+ignore_texture_size = true
+stretch_mode = 5
+text = "Salir del juego"
+_text = "Salir del juego"
+
+[connection signal="pressed" from="PanelContainer/VBoxContainer/BtnReanudar" to="." method="_on_btn_reanudar_pressed"]
+[connection signal="pressed" from="PanelContainer/VBoxContainer/BtnGuardar" to="." method="_on_btn_guardar_pressed"]
+[connection signal="pressed" from="PanelContainer/VBoxContainer/BtnGuardarSalir" to="." method="_on_btn_guardar_salir_pressed"]
+[connection signal="pressed" from="PanelContainer/VBoxContainer/BtnTerminar" to="." method="_on_btn_terminar_pressed"]
+[connection signal="pressed" from="PanelContainer/VBoxContainer/BtnExit" to="." method="_on_btn_exit_pressed"]

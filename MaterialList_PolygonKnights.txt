@@ -1,0 +1,2593 @@
+-------------------
+Folder Name: Buildings
+-------------------
+Prefab Name: SM_Bld_ArrowSlit_01
+    Mesh Name: SM_Bld_ArrowSlit_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Arrow_Slit_01
+    Mesh Name: SM_Bld_Castle_Arrow_Slit_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Door_01
+    Mesh Name: SM_Bld_Castle_Door_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+    Mesh Name: SM_Bld_Castle_Door_L
+        Slot: PolyKnights_Mat_01 (Texture_01)
+    Mesh Name: SM_Bld_Castle_Door_R
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Flagpole_01
+    Mesh Name: SM_Bld_Castle_Flagpole_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Flag_01
+    Mesh Name: SM_Bld_Castle_Flag_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Iron_Gate_01
+    Mesh Name: SM_Bld_Castle_Iron_Gate_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Pillar_01
+    Mesh Name: SM_Bld_Castle_Pillar_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Roof_Spire_01
+    Mesh Name: SM_Bld_Castle_Roof_Spire_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_01
+    Mesh Name: SM_Bld_Castle_Tower_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_01_Lite
+    Mesh Name: SM_Bld_Castle_Tower_01_Lite
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_02
+    Mesh Name: SM_Bld_Castle_Tower_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_02_Lite
+    Mesh Name: SM_Bld_Castle_Tower_02_Lite
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_03
+    Mesh Name: SM_Bld_Castle_Tower_03
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_03_Lite
+    Mesh Name: SM_Bld_Castle_Tower_03_Lite
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_04
+    Mesh Name: SM_Bld_Castle_Tower_04
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_04_Lite
+    Mesh Name: SM_Bld_Castle_Tower_04_Lite
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_Base_01
+    Mesh Name: SM_Bld_Castle_Tower_Base_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_Base_02
+    Mesh Name: SM_Bld_Castle_Tower_Base_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_Mini_01
+    Mesh Name: SM_Bld_Castle_Tower_Mini_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_Mini_01_Snow
+    Mesh Name: SM_Bld_Castle_Tower_Mini_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_Mini_02
+    Mesh Name: SM_Bld_Castle_Tower_Mini_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_Mini_02_Snow
+    Mesh Name: SM_Bld_Castle_Tower_Mini_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_Round_01
+    Mesh Name: SM_Bld_Castle_Tower_Round_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_Round_01_Lite
+    Mesh Name: SM_Bld_Castle_Tower_Round_01_Lite
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_Round_02
+    Mesh Name: SM_Bld_Castle_Tower_Round_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_Round_02_Lite
+    Mesh Name: SM_Bld_Castle_Tower_Round_02_Lite
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_Round_Top_01
+    Mesh Name: SM_Bld_Castle_Tower_Round_Top_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_Round_Top_01_Lite
+    Mesh Name: SM_Bld_Castle_Tower_Round_Top_01_Lite
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_Top_01
+    Mesh Name: SM_Bld_Castle_Tower_Top_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_Top_01_Lite
+    Mesh Name: SM_Bld_Castle_Tower_Top_01_Lite
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_Wall_Top_01
+    Mesh Name: SM_Bld_Castle_Tower_Wall_Top_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_Wall_Top_01_Lite
+    Mesh Name: SM_Bld_Castle_Tower_Wall_Top_01_Lite
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Wall_01
+    Mesh Name: SM_Bld_Castle_Wall_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Wall_01_Lite
+    Mesh Name: SM_Bld_Castle_Wall_01_Lite
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Wall_Gate_01
+    Mesh Name: SM_Bld_Castle_Wall_Gate_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Wall_Gate_01_Lite
+    Mesh Name: SM_Bld_Castle_Wall_Gate_01_Lite
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Wood_Battlement_01
+    Mesh Name: SM_Bld_Castle_Wood_Battlement_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Wood_Battlement_02
+    Mesh Name: SM_Bld_Castle_Wood_Battlement_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Wood_Battlement_03
+    Mesh Name: SM_Bld_Castle_Wood_Battlement_03
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Wood_Battlement_04
+    Mesh Name: SM_Bld_Castle_Wood_Battlement_04
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Wood_Detal_01
+    Mesh Name: SM_Bld_Castle_Wood_Detal_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_Door_01
+    Mesh Name: SM_Bld_Church_Door_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_Extension_01
+    Mesh Name: SM_Bld_Church_Extension_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_Extension_01_Lite
+    Mesh Name: SM_Bld_Church_Extension_01_Lite
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_Room_01
+    Mesh Name: SM_Bld_Church_Room_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_Room_01_Lite
+    Mesh Name: SM_Bld_Church_Room_01_Lite
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_Room_02
+    Mesh Name: SM_Bld_Church_Room_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_Room_02_Lite
+    Mesh Name: SM_Bld_Church_Room_02_Lite
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_Room_03
+    Mesh Name: SM_Bld_Church_Room_03
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_Room_03_Lite
+    Mesh Name: SM_Bld_Church_Room_03_Lite
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_TowerBase_01
+    Mesh Name: SM_Bld_Church_TowerBase_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_TowerBase_01_Lite
+    Mesh Name: SM_Bld_Church_TowerBase_01_Lite
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_Tower_01
+    Mesh Name: SM_Bld_Church_Tower_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_Tower_01_Lite
+    Mesh Name: SM_Bld_Church_Tower_01_Lite
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_Tower_02
+    Mesh Name: SM_Bld_Church_Tower_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_Tower_02_Lite
+    Mesh Name: SM_Bld_Church_Tower_02_Lite
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_Tower_03
+    Mesh Name: SM_Bld_Church_Tower_03
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_Tower_03_Lite
+    Mesh Name: SM_Bld_Church_Tower_03_Lite
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_Window_01
+    Mesh Name: SM_Bld_Church_Window_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Chimney_01
+    Mesh Name: SM_Bld_House_Chimney_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Chimney_02
+    Mesh Name: SM_Bld_House_Chimney_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Chimney_03
+    Mesh Name: SM_Bld_House_Chimney_03
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Chimney_04
+    Mesh Name: SM_Bld_House_Chimney_04
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Chimney_05
+    Mesh Name: SM_Bld_House_Chimney_05
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Door_01
+    Mesh Name: SM_Bld_House_Door_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Door_02
+    Mesh Name: SM_Bld_House_Door_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Door_03
+    Mesh Name: SM_Bld_House_Door_03
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Door_04
+    Mesh Name: SM_Bld_House_Door_04
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Extension_01
+    Mesh Name: SM_Bld_House_Extension_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Extension_02
+    Mesh Name: SM_Bld_House_Extension_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_FoundationRock_01
+    Mesh Name: SM_Bld_House_FoundationRock_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Foundation_01
+    Mesh Name: SM_Bld_House_Foundation_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Foundation_02
+    Mesh Name: SM_Bld_House_Foundation_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Foundation_03
+    Mesh Name: SM_Bld_House_Foundation_03
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Foundation_04
+    Mesh Name: SM_Bld_House_Foundation_04
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Foundation_05
+    Mesh Name: SM_Bld_House_Foundation_05
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Foundation_06
+    Mesh Name: SM_Bld_House_Foundation_06
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Foundation_07
+    Mesh Name: SM_Bld_House_Foundation_07
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Foundation_Beams_01
+    Mesh Name: SM_Bld_House_Foundation_Beams_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomRound_01
+    Mesh Name: SM_Bld_House_RoomRound_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomRound_02
+    Mesh Name: SM_Bld_House_RoomRound_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTall_01
+    Mesh Name: SM_Bld_House_RoomTall_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTall_02
+    Mesh Name: SM_Bld_House_RoomTall_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTall_03
+    Mesh Name: SM_Bld_House_RoomTall_03
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTall_04
+    Mesh Name: SM_Bld_House_RoomTall_04
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTall_05
+    Mesh Name: SM_Bld_House_RoomTall_05
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTall_06
+    Mesh Name: SM_Bld_House_RoomTall_06
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTop_01
+    Mesh Name: SM_Bld_House_RoomTop_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTop_02
+    Mesh Name: SM_Bld_House_RoomTop_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTop_03
+    Mesh Name: SM_Bld_House_RoomTop_03
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTop_04
+    Mesh Name: SM_Bld_House_RoomTop_04
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTop_05
+    Mesh Name: SM_Bld_House_RoomTop_05
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTop_06
+    Mesh Name: SM_Bld_House_RoomTop_06
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTop_07
+    Mesh Name: SM_Bld_House_RoomTop_07
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Room_01
+    Mesh Name: SM_Bld_House_Room_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Room_02
+    Mesh Name: SM_Bld_House_Room_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Room_03
+    Mesh Name: SM_Bld_House_Room_03
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Room_04
+    Mesh Name: SM_Bld_House_Room_04
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Room_05
+    Mesh Name: SM_Bld_House_Room_05
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Room_06
+    Mesh Name: SM_Bld_House_Room_06
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Room_07
+    Mesh Name: SM_Bld_House_Room_07
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_StepsSmall_01
+    Mesh Name: SM_Bld_House_StepsSmall_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_TopRoomSmall_01
+    Mesh Name: SM_Bld_House_TopRoomSmall_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_TopRoomSmall_02
+    Mesh Name: SM_Bld_House_TopRoomSmall_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_TopRoomSmall_03
+    Mesh Name: SM_Bld_House_TopRoomSmall_03
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_TopRoomSmall_04
+    Mesh Name: SM_Bld_House_TopRoomSmall_04
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_TopRoomSmall_05
+    Mesh Name: SM_Bld_House_TopRoomSmall_05
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_TopRoomSmall_06
+    Mesh Name: SM_Bld_House_TopRoomSmall_06
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_TopRoomSmall_07
+    Mesh Name: SM_Bld_House_TopRoomSmall_07
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Tower_01
+    Mesh Name: SM_Bld_House_Tower_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Window_01
+    Mesh Name: SM_Bld_House_Window_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Window_02
+    Mesh Name: SM_Bld_House_Window_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Window_03
+    Mesh Name: SM_Bld_House_Window_03
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Window_04
+    Mesh Name: SM_Bld_House_Window_04
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Window_05
+    Mesh Name: SM_Bld_House_Window_05
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Leanto_01
+    Mesh Name: SM_Bld_Leanto_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Rockwall_Archway_01
+    Mesh Name: SM_Bld_Rockwall_Archway_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Rockwall_StairArchway_01
+    Mesh Name: SM_Bld_Rockwall_StairArchway_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Rockwall_Stairs_01
+    Mesh Name: SM_Bld_Rockwall_Stairs_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Rockwall_Straight_01
+    Mesh Name: SM_Bld_Rockwall_Straight_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_StairsLarge_01
+    Mesh Name: SM_Bld_StairsLarge_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_StairsLarge_02
+    Mesh Name: SM_Bld_StairsLarge_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_StairsLarge_Corner_01
+    Mesh Name: SM_Bld_StairsLarge_Corner_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_StairsLarge_Corner_02
+    Mesh Name: SM_Bld_StairsLarge_Corner_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Tent_01
+    Mesh Name: SM_Bld_Tent_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Tent_02
+    Mesh Name: SM_Bld_Tent_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Tent_03
+    Mesh Name: SM_Bld_Tent_03
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Village_Well_01
+    Mesh Name: SM_Bld_Village_Well_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+-------------------
+Folder Name: Characters
+-------------------
+Prefab Name: Character_Knight_01_Black
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_02
+    Mesh Name: Character_Knight_03
+    Mesh Name: Character_Soldier_01
+    Mesh Name: Character_Soldier_02
+    Mesh Name: Item_CoinBag
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Dagger
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Pouch
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterBladder_01
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WaterCanteen
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_SwordHolder
+        Slot: Default-Material (No Albedo Texture)
+
+Prefab Name: Character_Knight_01_Blue
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Character_Knight_02
+    Mesh Name: Character_Knight_03
+    Mesh Name: Character_Soldier_01
+    Mesh Name: Character_Soldier_02
+    Mesh Name: Item_CoinBag
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Dagger
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Pouch
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Item_WaterBladder_01
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WaterCanteen
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_SwordHolder
+        Slot: Default-Material (No Albedo Texture)
+
+Prefab Name: Character_Knight_01_Orange
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Orange (Characters_Texture_Orange)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Orange (Characters_Texture_Orange)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+
+Prefab Name: Character_Knight_01_Yellow
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+
+Prefab Name: Character_Knight_02_Black
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_03
+    Mesh Name: Character_Soldier_01
+    Mesh Name: Character_Soldier_02
+    Mesh Name: Item_CoinBag
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Dagger
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Pouch
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterBladder_01
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WaterCanteen
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_SwordHolder
+        Slot: Default-Material (No Albedo Texture)
+
+Prefab Name: Character_Knight_02_Blue
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Character_Knight_03
+    Mesh Name: Character_Soldier_01
+    Mesh Name: Character_Soldier_02
+    Mesh Name: Item_CoinBag
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Dagger
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Pouch
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WaterBladder_01
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WaterCanteen
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_SwordHolder
+        Slot: Default-Material (No Albedo Texture)
+
+Prefab Name: Character_Knight_02_Orange
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Orange (Characters_Texture_Orange)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+
+Prefab Name: Character_Knight_02_Yellow
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+
+Prefab Name: Character_Knight_03_Black
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_01
+    Mesh Name: Character_Soldier_02
+    Mesh Name: Item_CoinBag
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WaterBladder_01
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WaterCanteen
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_SwordHolder
+        Slot: Default-Material (No Albedo Texture)
+
+Prefab Name: Character_Knight_03_Blue
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Character_Soldier_01
+    Mesh Name: Character_Soldier_02
+    Mesh Name: Item_CoinBag
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WaterBladder_01
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WaterCanteen
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_SwordHolder
+        Slot: Default-Material (No Albedo Texture)
+
+Prefab Name: Character_Knight_03_Orange
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Orange (Characters_Texture_Orange)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Orange (Characters_Texture_Orange)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Orange (Characters_Texture_Orange)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+
+Prefab Name: Character_Knight_03_Yellow
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+
+Prefab Name: Character_Soldier_01_Black
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_02
+    Mesh Name: Item_CoinBag
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WaterBladder_01
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_SwordHolder
+        Slot: Default-Material (No Albedo Texture)
+
+Prefab Name: Character_Soldier_01_Blue
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Character_Soldier_02
+    Mesh Name: Item_CoinBag
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WaterBladder_01
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_SwordHolder
+        Slot: Default-Material (No Albedo Texture)
+
+Prefab Name: Character_Soldier_01_Orange
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Orange (Characters_Texture_Orange)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Orange (Characters_Texture_Orange)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+
+Prefab Name: Character_Soldier_01_Yellow
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+
+Prefab Name: Character_Soldier_02_Black
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+
+Prefab Name: Character_Soldier_02_Blue
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+
+Prefab Name: Character_Soldier_02_Orange
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Orange (Characters_Texture_Orange)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Orange (Characters_Texture_Orange)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Orange (Characters_Texture_Orange)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+
+Prefab Name: Character_Soldier_02_Yellow
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+
+-------------------
+Folder Name: Environments
+-------------------
+Prefab Name: SM_Env_Canal_01
+    Mesh Name: SM_Env_Canal_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Canal_02
+    Mesh Name: SM_Env_Canal_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Canal_03
+    Mesh Name: SM_Env_Canal_03
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Canal_Block_01
+    Mesh Name: SM_Env_Canal_Block_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Canal_Bridge_01
+    Mesh Name: SM_Env_Canal_Bridge_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Cliff_01
+    Mesh Name: SM_Env_Cliff_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Cliff_02
+    Mesh Name: SM_Env_Cliff_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Cloud_06
+    Mesh Name: SM_Env_Cloud_06
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Flower_01
+    Mesh Name: SM_Env_Flower_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Grass_01
+    Mesh Name: SM_Env_Grass_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_GroundMound_01
+    Mesh Name: SM_Env_GroundMound_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_GroundMound_02
+    Mesh Name: SM_Env_GroundMound_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_MountainGrass_01
+    Mesh Name: SM_Env_MountainGrass_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_MountainGrass_02
+    Mesh Name: SM_Env_MountainGrass_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_MountainSnow_01
+    Mesh Name: SM_Env_MountainSnow_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_MountainSnow_02
+    Mesh Name: SM_Env_MountainSnow_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Path_Cobble_01
+    Mesh Name: SM_Env_Path_Cobble_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Path_Cobble_02
+    Mesh Name: SM_Env_Path_Cobble_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Path_Cobble_Stone_01
+    Mesh Name: SM_Env_Path_Cobble_Stone_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Path_Dirt_01
+    Mesh Name: SM_Env_Path_Dirt_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Path_Dirt_02
+    Mesh Name: SM_Env_Path_Dirt_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Path_Dirt_03
+    Mesh Name: SM_Env_Path_Dirt_03
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Path_Dirt_04
+    Mesh Name: SM_Env_Path_Dirt_04
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Path_Dirt_05
+    Mesh Name: SM_Env_Path_Dirt_05
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Path_Dirt_06
+    Mesh Name: SM_Env_Path_Dirt_06
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Path_Stone_01
+    Mesh Name: SM_Env_Path_Stone_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Path_Stone_02
+    Mesh Name: SM_Env_Path_Stone_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Path_Stone_03
+    Mesh Name: SM_Env_Path_Stone_03
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Path_Tile_01
+    Mesh Name: SM_Env_Path_Tile_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Path_Tile_02
+    Mesh Name: SM_Env_Path_Tile_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Path_Tile_Corner_01
+    Mesh Name: SM_Env_Path_Tile_Corner_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_RockPile_01
+    Mesh Name: SM_Env_RockPile_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_RockPile_02
+    Mesh Name: SM_Env_RockPile_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_RockPile_03
+    Mesh Name: SM_Env_RockPile_03
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Tile_Dirt_01
+    Mesh Name: SM_Env_Tile_Dirt_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Tile_Grass_01
+    Mesh Name: SM_Env_Tile_Grass_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Tile_Water_01
+    Mesh Name: SM_Env_Tile_Water_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Tree_01
+    Mesh Name: SM_Env_Tree_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Tree_02
+    Mesh Name: SM_Env_Tree_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Tree_03
+    Mesh Name: SM_Env_Tree_03
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Tree_Twisted_01
+    Mesh Name: SM_Env_Tree_Twisted_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Tree_Twisted_02
+    Mesh Name: SM_Env_Tree_Twisted_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+-------------------
+Folder Name: Props
+-------------------
+Prefab Name: SM_Prop_Banner_01
+    Mesh Name: SM_Prop_Banner_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Banner_02
+    Mesh Name: SM_Prop_Banner_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Banner_03
+    Mesh Name: SM_Prop_Banner_03
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Beam_01
+    Mesh Name: SM_Prop_Beam_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Brazier_01
+    Mesh Name: SM_Prop_Brazier_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_CampFire_01
+    Mesh Name: SM_Prop_CampFire_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+        Slot: PolyKnights_Mat_01 (Texture_01)
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_CartHay_01
+    Mesh Name: SM_Prop_CartHay_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_CartWheel_01
+    Mesh Name: SM_Prop_CartWheel_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Cart_01
+    Mesh Name: SM_Prop_Cart_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Crate_01
+    Mesh Name: SM_Prop_Crate_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Fence_01
+    Mesh Name: SM_Prop_Fence_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Fence_02
+    Mesh Name: SM_Prop_Fence_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Grate_01
+    Mesh Name: SM_Prop_Grate_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Gravestone_01
+    Mesh Name: SM_Prop_Gravestone_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Gravestone_02
+    Mesh Name: SM_Prop_Gravestone_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Guillotine_01
+    Mesh Name: SM_Prop_Guillotine_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Lampost_01
+    Mesh Name: SM_Prop_Lampost_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Plinth_01
+    Mesh Name: SM_Prop_Plinth_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Plinth_02
+    Mesh Name: SM_Prop_Plinth_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Rowboat_01
+    Mesh Name: SM_Prop_Rowboat_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_ShopSign_01
+    Mesh Name: SM_Prop_ShopSign_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Statue_01
+    Mesh Name: SM_Prop_Statue_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Statue_Base_01
+    Mesh Name: SM_Prop_Statue_Base_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Trapdoor_01
+    Mesh Name: SM_Prop_Trapdoor_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_WaterWheel_01
+    Mesh Name: SM_Prop_WaterWheel_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_WaterWheel_Support_01
+    Mesh Name: SM_Prop_WaterWheel_Support_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+-------------------
+Folder Name: Weapons
+-------------------
+Prefab Name: SM_Wep_Broadsword_01
+    Mesh Name: SM_Wep_Broadsword_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Wep_Halberd_01
+    Mesh Name: SM_Wep_Halberd_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Wep_Rapier_01
+    Mesh Name: SM_Wep_Rapier_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Wep_Shield_01
+    Mesh Name: SM_Wep_Shield_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Wep_Shield_02
+    Mesh Name: SM_Wep_Shield_02
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Wep_Shield_03
+    Mesh Name: SM_Wep_Shield_03
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Wep_Shield_04
+    Mesh Name: SM_Wep_Shield_04
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Wep_Zweihander_01
+    Mesh Name: SM_Wep_Zweihander_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+-------------------
+Folder Name: Buildings_Snow
+-------------------
+Prefab Name: SM_Bld_ArrowSlit_01_Snow
+    Mesh Name: SM_Bld_ArrowSlit_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Door_01_Snow
+    Mesh Name: SM_Bld_Castle_Door_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+    Mesh Name: SM_Bld_Castle_Door_L
+        Slot: PolyKnights_Mat_01 (Texture_01)
+    Mesh Name: SM_Bld_Castle_Door_R
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Roof_Spire_01_Snow
+    Mesh Name: SM_Bld_Castle_Roof_Spire_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_01_Snow
+    Mesh Name: SM_Bld_Castle_Tower_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_Round_Top_01_Snow
+    Mesh Name: SM_Bld_Castle_Tower_Round_Top_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_Top_01_Snow
+    Mesh Name: SM_Bld_Castle_Tower_Top_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Tower_Wall_Top_01_Snow
+    Mesh Name: SM_Bld_Castle_Tower_Wall_Top_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Wall_01_Snow
+    Mesh Name: SM_Bld_Castle_Wall_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Wall_Gate_01_Snow
+    Mesh Name: SM_Bld_Castle_Wall_Gate_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Wood_Battlement_01_Snow
+    Mesh Name: SM_Bld_Castle_Wood_Battlement_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Wood_Battlement_02_Snow
+    Mesh Name: SM_Bld_Castle_Wood_Battlement_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Wood_Battlement_03_Snow
+    Mesh Name: SM_Bld_Castle_Wood_Battlement_03_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Wood_Battlement_04_Snow
+    Mesh Name: SM_Bld_Castle_Wood_Battlement_04_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Castle_Wood_Detal_01_Snow
+    Mesh Name: SM_Bld_Castle_Wood_Detal_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_Door_01_Snow
+    Mesh Name: SM_Bld_Church_Door_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_Extension_01_Snow
+    Mesh Name: SM_Bld_Church_Extension_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_Room_01_Snow
+    Mesh Name: SM_Bld_Church_Room_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_Room_02_Snow
+    Mesh Name: SM_Bld_Church_Room_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_Room_03_Snow
+    Mesh Name: SM_Bld_Church_Room_03_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_Tower_01_Snow
+    Mesh Name: SM_Bld_Church_Tower_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Church_Tower_02_Snow
+    Mesh Name: SM_Bld_Church_Tower_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Chimney_01_Snow
+    Mesh Name: SM_Bld_House_Chimney_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Chimney_02_Snow
+    Mesh Name: SM_Bld_House_Chimney_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Chimney_03_Snow
+    Mesh Name: SM_Bld_House_Chimney_03_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Chimney_04_Snow
+    Mesh Name: SM_Bld_House_Chimney_04_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Chimney_05_Snow
+    Mesh Name: SM_Bld_House_Chimney_05_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Door_01_Snow
+    Mesh Name: SM_Bld_House_Door_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Door_02_Snow
+    Mesh Name: SM_Bld_House_Door_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Door_03_Snow
+    Mesh Name: SM_Bld_House_Door_03_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Door_04_Snow
+    Mesh Name: SM_Bld_House_Door_04_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Extension_01_Snow
+    Mesh Name: SM_Bld_House_Extension_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Extension_02_Snow
+    Mesh Name: SM_Bld_House_Extension_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomRound_01_Snow
+    Mesh Name: SM_Bld_House_RoomRound_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomRound_02_Snow
+    Mesh Name: SM_Bld_House_RoomRound_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTall_01_Snow
+    Mesh Name: SM_Bld_House_RoomTall_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTall_02_Snow
+    Mesh Name: SM_Bld_House_RoomTall_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTall_03_Snow
+    Mesh Name: SM_Bld_House_RoomTall_03_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTall_04_Snow
+    Mesh Name: SM_Bld_House_RoomTall_04_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTall_05_Snow
+    Mesh Name: SM_Bld_House_RoomTall_05_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTall_06_Snow
+    Mesh Name: SM_Bld_House_RoomTall_06_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTop_01_Snow
+    Mesh Name: SM_Bld_House_RoomTop_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTop_02_Snow
+    Mesh Name: SM_Bld_House_RoomTop_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTop_03_Snow
+    Mesh Name: SM_Bld_House_RoomTop_03_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTop_04_Snow
+    Mesh Name: SM_Bld_House_RoomTop_04_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTop_05_Snow
+    Mesh Name: SM_Bld_House_RoomTop_05_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTop_06_Snow
+    Mesh Name: SM_Bld_House_RoomTop_06_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_RoomTop_07_Snow
+    Mesh Name: SM_Bld_House_RoomTop_07_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Room_01_Snow
+    Mesh Name: SM_Bld_House_Room_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Room_02_Snow
+    Mesh Name: SM_Bld_House_Room_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Room_03_Snow
+    Mesh Name: SM_Bld_House_Room_03_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Room_04_Snow
+    Mesh Name: SM_Bld_House_Room_04_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Room_05_Snow
+    Mesh Name: SM_Bld_House_Room_05_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Room_06_Snow
+    Mesh Name: SM_Bld_House_Room_06_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Room_07_Snow
+    Mesh Name: SM_Bld_House_Room_07_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_StepsSmall_01_Snow
+    Mesh Name: SM_Bld_House_StepsSmall_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_TopRoomSmall_01_Snow
+    Mesh Name: SM_Bld_House_TopRoomSmall_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_TopRoomSmall_02_Snow
+    Mesh Name: SM_Bld_House_TopRoomSmall_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_TopRoomSmall_03_Snow
+    Mesh Name: SM_Bld_House_TopRoomSmall_03_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_TopRoomSmall_04_Snow
+    Mesh Name: SM_Bld_House_TopRoomSmall_04_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_TopRoomSmall_05_Snow
+    Mesh Name: SM_Bld_House_TopRoomSmall_05_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_TopRoomSmall_06_Snow
+    Mesh Name: SM_Bld_House_TopRoomSmall_06_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_TopRoomSmall_07_Snow
+    Mesh Name: SM_Bld_House_TopRoomSmall_07_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Tower_01_Snow
+    Mesh Name: SM_Bld_House_Tower_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Window_01_Snow
+    Mesh Name: SM_Bld_House_Window_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Window_02_Snow
+    Mesh Name: SM_Bld_House_Window_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Window_03_Snow
+    Mesh Name: SM_Bld_House_Window_03_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Window_04_Snow
+    Mesh Name: SM_Bld_House_Window_04_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_House_Window_05_Snow
+    Mesh Name: SM_Bld_House_Window_05_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Leanto_01_Snow
+    Mesh Name: SM_Bld_Leanto_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Rockwall_Archway_01_Snow
+    Mesh Name: SM_Bld_Rockwall_Archway_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Rockwall_StairArchway_01_Snow
+    Mesh Name: SM_Bld_Rockwall_StairArchway_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Rockwall_Stairs_01_Snow
+    Mesh Name: SM_Bld_Rockwall_Stairs_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Rockwall_Straight_01_Snow
+    Mesh Name: SM_Bld_Rockwall_Straight_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_StairsLarge_01_Snow
+    Mesh Name: SM_Bld_StairsLarge_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_StairsLarge_02_Snow
+    Mesh Name: SM_Bld_StairsLarge_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_StairsLarge_Corner_01_Snow
+    Mesh Name: SM_Bld_StairsLarge_Corner_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_StairsLarge_Corner_02_Snow
+    Mesh Name: SM_Bld_StairsLarge_Corner_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Tent_01_Snow
+    Mesh Name: SM_Bld_Tent_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Tent_02_Snow
+    Mesh Name: SM_Bld_Tent_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Tent_03_Snow
+    Mesh Name: SM_Bld_Tent_03_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Bld_Village_Well_01_Snow
+    Mesh Name: SM_Bld_Village_Well_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+-------------------
+Folder Name: FixedScaleCharacters
+-------------------
+Prefab Name: Character_Knight_01_Black_FixedScale
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+
+Prefab Name: Character_Knight_01_Blue_FixedScale
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+
+Prefab Name: Character_Knight_01_Orange_FixedScale
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Orange (Characters_Texture_Orange)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+
+Prefab Name: Character_Knight_01_Yellow_FixedScale
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+
+Prefab Name: Character_Knight_02_Black_FixedScale
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+
+Prefab Name: Character_Knight_02_Blue_FixedScale
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+
+Prefab Name: Character_Knight_02_Orange_FixedScale
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Orange (Characters_Texture_Orange)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+
+Prefab Name: Character_Knight_02_Yellow_FixedScale
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+
+Prefab Name: Character_Knight_03_Black_FixedScale
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+
+Prefab Name: Character_Knight_03_Blue_FixedScale
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+
+Prefab Name: Character_Knight_03_Orange_FixedScale
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Orange (Characters_Texture_Orange)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+
+Prefab Name: Character_Knight_03_Yellow_FixedScale
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+
+Prefab Name: Character_Soldier_01_Black_FixedScale
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+
+Prefab Name: Character_Soldier_01_Blue_FixedScale
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+
+Prefab Name: Character_Soldier_01_Orange_FixedScale
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Orange (Characters_Texture_Orange)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+
+Prefab Name: Character_Soldier_01_Yellow_FixedScale
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+
+Prefab Name: Character_Soldier_02_Black_FixedScale
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+
+Prefab Name: Character_Soldier_02_Blue_FixedScale
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Blue (Characters_Texture_Blue)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+
+Prefab Name: Character_Soldier_02_Orange_FixedScale
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Orange (Characters_Texture_Orange)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+
+Prefab Name: Character_Soldier_02_Yellow_FixedScale
+    Mesh Name: Character_Knight_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_02
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Knight_03
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Character_Soldier_02
+        Slot: PolyKnights_Character_Mat_Yellow (Characters_Texture_Yellow)
+    Mesh Name: Item_CoinBag
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Dagger
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_Pouch
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordSheath
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterBladder_01
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WaterCanteen
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_WarriorSholderArmor 1
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_WarriorSholderArmor
+        Slot: Default-Material (No Albedo Texture)
+    Mesh Name: Item_Sword
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+    Mesh Name: Item_SwordHolder
+        Slot: PolyKnights_Character_Mat_Black (Characters_Texture_Black)
+
+-------------------
+Folder Name: Environment_Snow
+-------------------
+Prefab Name: SM_Env_Canal_Bridge_01_Snow
+    Mesh Name: SM_Env_Canal_Bridge_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Path_Cobble_01_Snow
+    Mesh Name: SM_Env_Path_Cobble_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Path_Cobble_02_Snow
+    Mesh Name: SM_Env_Path_Cobble_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Path_Snow_01_Snow
+    Mesh Name: SM_Env_Path_Snow_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Path_Stone_01_Snow
+    Mesh Name: SM_Env_Path_Stone_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Path_Stone_02_Snow
+    Mesh Name: SM_Env_Path_Stone_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Path_Stone_03_Snow
+    Mesh Name: SM_Env_Path_Stone_03_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Path_Tile_01_Snow
+    Mesh Name: SM_Env_Path_Tile_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Path_Tile_02_Snow
+    Mesh Name: SM_Env_Path_Tile_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Path_Tile_Corner_01_Snow
+    Mesh Name: SM_Env_Path_Tile_Corner_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_RockPile_01_Snow
+    Mesh Name: SM_Env_RockPile_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_RockPile_02_Snow
+    Mesh Name: SM_Env_RockPile_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_RockPile_03_Snow
+    Mesh Name: SM_Env_RockPile_03_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Tile_Snow_01
+    Mesh Name: SM_Env_Tile_Snow_01
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Tree_01_Snow
+    Mesh Name: SM_Env_Tree_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Tree_02_Snow
+    Mesh Name: SM_Env_Tree_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Tree_03_Snow
+    Mesh Name: SM_Env_Tree_03_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Tree_Twisted_01_Snow
+    Mesh Name: SM_Env_Tree_Twisted_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Env_Tree_Twisted_02_Snow
+    Mesh Name: SM_Env_Tree_Twisted_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+-------------------
+Folder Name: Props_Snow
+-------------------
+Prefab Name: SM_Prop_Brazier_01_Snow
+    Mesh Name: SM_Prop_Brazier_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_CartHay_01_Snow
+    Mesh Name: SM_Prop_CartHay_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Cart_01_Snow
+    Mesh Name: SM_Prop_Cart_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Crate_01_Snow
+    Mesh Name: SM_Prop_Crate_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Fence_01_Snow
+    Mesh Name: SM_Prop_Fence_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Fence_02_Snow
+    Mesh Name: SM_Prop_Fence_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Grate_01_Snow
+    Mesh Name: SM_Prop_Grate_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Gravestone_01_Snow
+    Mesh Name: SM_Prop_Gravestone_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Gravestone_02_Snow
+    Mesh Name: SM_Prop_Gravestone_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Guillotine_01_Snow
+    Mesh Name: SM_Prop_Guillotine_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Lampost_01_Snow
+    Mesh Name: SM_Prop_Lampost_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Plinth_01_Snow
+    Mesh Name: SM_Prop_Plinth_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Plinth_02_Snow
+    Mesh Name: SM_Prop_Plinth_02_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Rowboat_01_Snow
+    Mesh Name: SM_Prop_Rowboat_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_ShopSign_01_Snow
+    Mesh Name: SM_Prop_ShopSign_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Statue_01_Snow
+    Mesh Name: SM_Prop_Statue_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Statue_Base_01_Snow
+    Mesh Name: SM_Prop_Statue_Base_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_Trapdoor_01_Snow
+    Mesh Name: SM_Prop_Trapdoor_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_WaterWheel_01_Snow
+    Mesh Name: SM_Prop_WaterWheel_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+
+Prefab Name: SM_Prop_WaterWheel_Support_01_Snow
+    Mesh Name: SM_Prop_WaterWheel_Support_01_Snow
+        Slot: PolyKnights_Mat_01 (Texture_01)
+

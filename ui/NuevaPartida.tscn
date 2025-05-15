@@ -1,0 +1,211 @@
+[gd_scene load_steps=11 format=3 uid="uid://cprgugh701am3"]
+
+[ext_resource type="Script" uid="uid://bax1il2fcgq2l" path="res://ui/nueva_partida.gd" id="1_7uyhy"]
+[ext_resource type="Theme" uid="uid://cpx2c60ubwk1w" path="res://ui/themes/MainTheme.tres" id="3_r53jt"]
+[ext_resource type="Texture2D" uid="uid://brvuo8x7s1uvn" path="res://assets/backgrounds/Imagen de WhatsApp 2025-04-12 a las 08.48.41_60d2e898.jpg" id="3_ysnfn"]
+[ext_resource type="Texture2D" uid="uid://cpaf1ytmfi41w" path="res://assets/synty/ui/Sprites/FantasyMenus/SPR_FantasyMenus_Frame_Bar_05_Left.png" id="4_ysnfn"]
+[ext_resource type="Texture2D" uid="uid://ca5llv6xtwtrx" path="res://assets/synty/ui/Sprites/FantasyMenus/SPR_FantasyMenus_Frame_Bar_05_Right.png" id="5_q4asd"]
+[ext_resource type="PackedScene" uid="uid://dmjb05p7k0laq" path="res://ui/NuevoPJ.scn" id="7_dbmtx"]
+[ext_resource type="PackedScene" uid="uid://bd21ipd305of2" path="res://ui/elementos/LabelAjustes.tscn" id="7_r53jt"]
+[ext_resource type="Texture2D" uid="uid://bw0hvufajafwn" path="res://assets/synty/ui/Sprites/Icons_FantasyMenus/SPR_FantasyMenus_Icon_Arrow_02_left_64x64.png" id="7_ysnfn"]
+[ext_resource type="Texture2D" uid="uid://bkhqh5dkah6p3" path="res://assets/synty/ui/Sprites/Icons_FantasyMenus/SPR_FantasyMenus_Icon_Arrow_02_64x64.png" id="8_q4asd"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ysnfn"]
+
+[node name="NewGame" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("3_r53jt")
+script = ExtResource("1_7uyhy")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_ysnfn")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Titulo" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.07
+anchor_top = 0.048
+anchor_right = 0.57
+anchor_bottom = 0.198
+offset_left = 0.360001
+offset_top = -0.104
+offset_right = 0.359985
+offset_bottom = -0.104004
+size_flags_vertical = 0
+theme = ExtResource("3_r53jt")
+theme_override_font_sizes/font_size = 80
+text = "Nueva partida"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AspectRatioContainer" type="AspectRatioContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.05
+anchor_top = 0.199
+anchor_right = 0.587
+anchor_bottom = 0.833
+offset_left = 0.399998
+offset_top = 0.0479889
+offset_right = -0.223999
+offset_bottom = 0.215942
+ratio = 0.83
+alignment_vertical = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="AspectRatioContainer"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Separator" type="HBoxContainer" parent="AspectRatioContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_stretch_ratio = 0.6
+theme_override_constants/separation = 0
+
+[node name="SepLeft" type="TextureRect" parent="AspectRatioContainer/VBoxContainer/Separator"]
+texture_filter = 6
+layout_mode = 2
+size_flags_horizontal = 3
+texture = ExtResource("4_ysnfn")
+expand_mode = 5
+
+[node name="SepRight" type="TextureRect" parent="AspectRatioContainer/VBoxContainer/Separator"]
+texture_filter = 6
+layout_mode = 2
+size_flags_horizontal = 3
+texture = ExtResource("5_q4asd")
+expand_mode = 5
+
+[node name="NameLabel" parent="AspectRatioContainer/VBoxContainer" instance=ExtResource("7_r53jt")]
+layout_mode = 2
+expand_mode = 3
+text = "Nombre"
+
+[node name="TENombre" type="TextEdit" parent="AspectRatioContainer/VBoxContainer"]
+layout_mode = 2
+placeholder_text = "<Nombre PJ>"
+context_menu_enabled = false
+emoji_menu_enabled = false
+scroll_fit_content_height = true
+caret_blink = true
+
+[node name="MeshContainer" type="HBoxContainer" parent="AspectRatioContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Mesh" parent="AspectRatioContainer/VBoxContainer/MeshContainer" instance=ExtResource("7_r53jt")]
+layout_mode = 2
+expand_mode = 3
+text = "Modelo"
+
+[node name="OBMesh" type="OptionButton" parent="AspectRatioContainer/VBoxContainer/MeshContainer"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+alignment = 1
+
+[node name="SkinContainer" type="HBoxContainer" parent="AspectRatioContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Skin" parent="AspectRatioContainer/VBoxContainer/SkinContainer" instance=ExtResource("7_r53jt")]
+layout_mode = 2
+expand_mode = 3
+text = "Tez"
+
+[node name="OBSkin" type="OptionButton" parent="AspectRatioContainer/VBoxContainer/SkinContainer"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+alignment = 1
+
+[node name="ClothesContainer" type="HBoxContainer" parent="AspectRatioContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Clothes" parent="AspectRatioContainer/VBoxContainer/ClothesContainer" instance=ExtResource("7_r53jt")]
+layout_mode = 2
+expand_mode = 3
+text = "Ropaje"
+
+[node name="OBClothes" type="OptionButton" parent="AspectRatioContainer/VBoxContainer/ClothesContainer"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+alignment = 1
+
+[node name="ButtonContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.02
+anchor_top = 0.869
+anchor_right = 0.622
+anchor_bottom = 0.98
+offset_left = -0.039999
+offset_top = -0.112
+offset_right = 0.455933
+offset_bottom = -0.0400391
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_vertical = 8
+
+[node name="BtnBack" type="Button" parent="ButtonContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 8
+text = "Volver"
+icon = ExtResource("7_ysnfn")
+
+[node name="VSeparator" type="VSeparator" parent="ButtonContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/separator = SubResource("StyleBoxFlat_ysnfn")
+
+[node name="BtnStart" type="Button" parent="ButtonContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 8
+disabled = true
+text = "Empezar"
+icon = ExtResource("8_q4asd")
+icon_alignment = 2
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.545
+anchor_top = 0.151
+anchor_right = 0.839
+anchor_bottom = 0.943
+offset_left = 0.159973
+offset_top = 0.151993
+offset_right = 0.471924
+offset_bottom = -0.0640259
+stretch = true
+
+[node name="SubViewport" type="SubViewport" parent="SubViewportContainer"]
+transparent_bg = true
+handle_input_locally = false
+size = Vector2i(339, 513)
+render_target_update_mode = 4
+
+[node name="NuevoPJ" parent="SubViewportContainer/SubViewport" instance=ExtResource("7_dbmtx")]
+
+[connection signal="focus_entered" from="AspectRatioContainer/VBoxContainer/TENombre" to="." method="_on_mouse_entered"]
+[connection signal="text_changed" from="AspectRatioContainer/VBoxContainer/TENombre" to="." method="_on_te_nombre_text_changed"]
+[connection signal="item_selected" from="AspectRatioContainer/VBoxContainer/MeshContainer/OBMesh" to="." method="_on_ob_mesh_item_selected"]
+[connection signal="mouse_entered" from="AspectRatioContainer/VBoxContainer/MeshContainer/OBMesh" to="." method="_on_mouse_entered"]
+[connection signal="item_selected" from="AspectRatioContainer/VBoxContainer/SkinContainer/OBSkin" to="." method="_on_ob_skin_item_selected"]
+[connection signal="mouse_entered" from="AspectRatioContainer/VBoxContainer/SkinContainer/OBSkin" to="." method="_on_mouse_entered"]
+[connection signal="item_selected" from="AspectRatioContainer/VBoxContainer/ClothesContainer/OBClothes" to="." method="_on_ob_clothes_item_selected"]
+[connection signal="mouse_entered" from="AspectRatioContainer/VBoxContainer/ClothesContainer/OBClothes" to="." method="_on_mouse_entered"]
+[connection signal="mouse_entered" from="ButtonContainer/BtnBack" to="." method="_on_mouse_entered"]
+[connection signal="pressed" from="ButtonContainer/BtnBack" to="." method="_on_btn_back_pressed"]
+[connection signal="mouse_entered" from="ButtonContainer/BtnStart" to="." method="_on_mouse_entered"]
+[connection signal="pressed" from="ButtonContainer/BtnStart" to="." method="_on_btn_start_pressed"]
