@@ -6,13 +6,13 @@ class_name MeshPlayer
 	set = _assign_mesh
 @export var looks : GlobalDefs.CharacterLook = GlobalDefs.CharacterLook.LOOK_1_A :
 	set =_assign_look
-#@onready var mesh : MeshInstance3D = $HumanSkeleton/Mesh
 
 func _assign_mesh(value : GlobalDefs.CharacterType):
-	if not is_inside_tree():  # Evita errores si el nodo no está en la escena
+	# Evita errores si el nodo no está en la escena
+	if not is_inside_tree():  
 		return
 
-	var mesh = $Mesh #get_node_or_null("HumanSkeleton/Mesh")
+	var mesh = $Mesh
 	if mesh:
 		type = value
 		if value > 11:
@@ -25,14 +25,14 @@ func _assign_mesh(value : GlobalDefs.CharacterType):
 	notify_property_list_changed()
 
 func _assign_look(value : GlobalDefs.CharacterLook):
-	if not is_inside_tree():  # Evita errores si el nodo no está en la escena
+	# Evita errores si el nodo no está en la escena
+	if not is_inside_tree():  
 		return
 
 	var mesh = $Mesh
 	if mesh:
 		if value < 15:
 			looks = value
-#			var mat = mesh.get_surface_override_material(0) # StandardMaterial3D.new()
 			var mat = StandardMaterial3D.new()
 			mat.albedo_texture = GlobalDefs.CharacterTexture.get(looks)
 			mesh.set_surface_override_material(0, mat)

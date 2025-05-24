@@ -7,7 +7,7 @@ extends Control
 @onready var _clothes_opt : OptionButton = $AspectRatioContainer/VBoxContainer/ClothesContainer/OBClothes
 @onready var _te_name     : TextEdit     = $AspectRatioContainer/VBoxContainer/TENombre
 @onready var _btn_back    : Button       = $ButtonContainer/BtnBack
-@onready var _btn_start   : Button       = $ButtonContainer/BtnStart
+@onready var _btn_next    : Button       = $ButtonContainer/BtnNext
 
 var _mesh_list : Array[GlobalDefs.CharacterType] = [
 	GlobalDefs.CharacterType.PEASANT_01,
@@ -28,10 +28,10 @@ func _ready() -> void:
 	# los elementos verticales
 	var framed : UIFramedElement = $AspectRatioContainer/VBoxContainer/MeshContainer/Mesh
 	_btn_back.add_theme_font_size_override("font_size", framed.label.get_theme_font_size("font_size"))
-	_btn_start.add_theme_font_size_override("font_size", framed.label.get_theme_font_size("font_size"))
+	_btn_next.add_theme_font_size_override("font_size", framed.label.get_theme_font_size("font_size"))
 	_te_name.add_theme_font_size_override("font_size", framed.label.get_theme_font_size("font_size"))
 
-	_select_random_character()
+	_initialize_character_from_game_data(GameState.current())
 
 func _fill_mesh_options() -> void:
 	_mesh_opt.clear()
@@ -42,14 +42,13 @@ func _fill_mesh_options() -> void:
 
 func _fill_skin_options() -> void:
 	_skin_opt.clear()
-	_skin_opt.add_item("Pálida")
-	_skin_opt.add_item("Morena")
-	_skin_opt.add_item("Oscura")
+	for skin in Character.TezStr:
+		_skin_opt.add_item(skin)
 
 func _fill_clothes_options() -> void:
 	_clothes_opt.clear()
-	for idx in range(5):
-		_clothes_opt.add_item("Estilo " + str(idx + 1))
+	for look in Character.LooksStr:
+		_clothes_opt.add_item(look)
 
 func _select_random_character() -> void:
 	var rnd = RandomNumberGenerator.new()
@@ -64,6 +63,29 @@ func _select_random_character() -> void:
 
 	_on_ob_mesh_item_selected(_mesh_opt.selected)
 	_update_pj_texture(skin_idx, cloth_idx)
+
+func _initialize_character_from_game_data(game_data : GameData) -> void:
+	if game_data != null:
+		_te_name.text = game_data.character.nombre
+		_mesh_opt.select(game_data.character.type - GlobalDefs.CharacterType.PEASANT_01)
+		_skin_opt.select(game_data.character.tez)
+		_clothes_opt.select(game_data.character.looks)
+		# Actualizamos el estado del botón "continuar" y apariencia en vista 3D
+		_on_te_nombre_text_changed()
+		_on_ob_mesh_item_selected(_mesh_opt.selected)
+		_update_pj_texture(_skin_opt.selected, _clothes_opt.selected)
+	else:
+		_select_random_character()
+
+func _update_or_create_game_data() -> void:
+	var game_data : GameData = GameState.current()
+	if game_data == null:
+		game_data = GameState.start_new_game()
+	# Almacenamos en el objeto los datos hasta ahora cargados
+	game_data.character.nombre = _te_name.text
+	game_data.character.type   = _mesh_opt.selected + GlobalDefs.CharacterType.PEASANT_01
+	game_data.character.tez    = _skin_opt.selected
+	game_data.character.looks  = _clothes_opt.selected
 
 func _update_pj_texture(skn_idx: int, clth_idx: int) -> void:
 	var idx = 3 * clth_idx + skn_idx
@@ -116,10 +138,10 @@ func _on_btn_back_pressed() -> void:
 func _on_btn_start_pressed() -> void:
 	SFX.play_click()
 	Tools.fade_out(self)
-	# Guardamos una nueva partida en BBDD. ¿Lo hacemos ahora? Si no lo hacemos
-	# Tendremos que guardar de alguna forma el nombre del PJ, y su diseño para
-	# poder almacenarlo cuando queramos grabar la partida
+	# Creamos una instancia de "nueva partida" si no existe y actualizamos los datos
+	_update_or_create_game_data()
+	# Cargamos la nueva escena
 	_load_scene_thread("res://ui/atributos.tscn", "Cargando...")
 
 func _on_te_nombre_text_changed() -> void:
-	_btn_start.disabled = (_te_name.text.length() == 0)
+	_btn_next.disabled = (_te_name.text.length() == 0)

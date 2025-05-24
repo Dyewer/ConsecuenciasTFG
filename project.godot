@@ -30,6 +30,7 @@ Tools="*res://scripts/tools.gd"
 Music="*res://scripts/background_music.gd"
 SFX="*res://ui/elementos/ui_sfx.gd"
 DB="*res://scripts/db.gd"
+GameState="*res://scripts/game_state/game_state.gd"
 
 [editor_plugins]
 

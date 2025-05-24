@@ -1,8 +1,8 @@
 [gd_scene load_steps=11 format=3 uid="uid://cprgugh701am3"]
 
 [ext_resource type="Script" uid="uid://bax1il2fcgq2l" path="res://ui/nueva_partida.gd" id="1_7uyhy"]
+[ext_resource type="Texture2D" uid="uid://byhkgmnigvv4v" path="res://assets/backgrounds/fondo.png" id="2_dbmtx"]
 [ext_resource type="Theme" uid="uid://cpx2c60ubwk1w" path="res://ui/themes/MainTheme.tres" id="3_r53jt"]
-[ext_resource type="Texture2D" uid="uid://brvuo8x7s1uvn" path="res://assets/backgrounds/Imagen de WhatsApp 2025-04-12 a las 08.48.41_60d2e898.jpg" id="3_ysnfn"]
 [ext_resource type="Texture2D" uid="uid://cpaf1ytmfi41w" path="res://assets/synty/ui/Sprites/FantasyMenus/SPR_FantasyMenus_Frame_Bar_05_Left.png" id="4_ysnfn"]
 [ext_resource type="Texture2D" uid="uid://ca5llv6xtwtrx" path="res://assets/synty/ui/Sprites/FantasyMenus/SPR_FantasyMenus_Frame_Bar_05_Right.png" id="5_q4asd"]
 [ext_resource type="PackedScene" uid="uid://dmjb05p7k0laq" path="res://ui/NuevoPJ.scn" id="7_dbmtx"]
@@ -29,23 +29,20 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("3_ysnfn")
+texture = ExtResource("2_dbmtx")
 expand_mode = 1
 stretch_mode = 5
 
 [node name="Titulo" type="Label" parent="."]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.07
-anchor_top = 0.048
-anchor_right = 0.57
-anchor_bottom = 0.198
-offset_left = 0.360001
-offset_top = -0.104
-offset_right = 0.359985
-offset_bottom = -0.104004
+anchor_left = 0.05
+anchor_top = 0.05
+anchor_right = 0.55
+anchor_bottom = 0.2
 size_flags_vertical = 0
 theme = ExtResource("3_r53jt")
+theme_override_colors/font_color = Color(1, 0.909804, 0.411765, 1)
 theme_override_font_sizes/font_size = 80
 text = "Nueva partida"
 horizontal_alignment = 1
@@ -55,13 +52,10 @@ vertical_alignment = 1
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.05
-anchor_top = 0.199
-anchor_right = 0.587
-anchor_bottom = 0.833
-offset_left = 0.399998
-offset_top = 0.0479889
-offset_right = -0.223999
-offset_bottom = 0.215942
+anchor_top = 0.2
+anchor_right = 0.4
+anchor_bottom = 0.85
+offset_top = -0.152008
 ratio = 0.83
 alignment_vertical = 0
 
@@ -144,13 +138,9 @@ alignment = 1
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.02
-anchor_top = 0.869
-anchor_right = 0.622
+anchor_top = 0.9
+anchor_right = 0.43
 anchor_bottom = 0.98
-offset_left = -0.039999
-offset_top = -0.112
-offset_right = 0.455933
-offset_bottom = -0.0400391
 grow_horizontal = 2
 grow_vertical = 0
 size_flags_vertical = 8
@@ -167,32 +157,30 @@ layout_mode = 2
 size_flags_horizontal = 3
 theme_override_styles/separator = SubResource("StyleBoxFlat_ysnfn")
 
-[node name="BtnStart" type="Button" parent="ButtonContainer"]
+[node name="BtnNext" type="Button" parent="ButtonContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 8
 disabled = true
-text = "Empezar"
+text = "Siguiente"
 icon = ExtResource("8_q4asd")
 icon_alignment = 2
 
 [node name="SubViewportContainer" type="SubViewportContainer" parent="."]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.545
-anchor_top = 0.151
-anchor_right = 0.839
-anchor_bottom = 0.943
-offset_left = 0.159973
-offset_top = 0.151993
-offset_right = 0.471924
-offset_bottom = -0.0640259
+anchor_left = 0.6
+anchor_top = 0.2
+anchor_right = 0.8
+anchor_bottom = 0.95
+offset_right = -0.400024
+offset_bottom = 0.400024
 stretch = true
 
 [node name="SubViewport" type="SubViewport" parent="SubViewportContainer"]
 transparent_bg = true
 handle_input_locally = false
-size = Vector2i(339, 513)
+size = Vector2i(230, 486)
 render_target_update_mode = 4
 
 [node name="NuevoPJ" parent="SubViewportContainer/SubViewport" instance=ExtResource("7_dbmtx")]
@@ -207,5 +195,5 @@ render_target_update_mode = 4
 [connection signal="mouse_entered" from="AspectRatioContainer/VBoxContainer/ClothesContainer/OBClothes" to="." method="_on_mouse_entered"]
 [connection signal="mouse_entered" from="ButtonContainer/BtnBack" to="." method="_on_mouse_entered"]
 [connection signal="pressed" from="ButtonContainer/BtnBack" to="." method="_on_btn_back_pressed"]
-[connection signal="mouse_entered" from="ButtonContainer/BtnStart" to="." method="_on_mouse_entered"]
-[connection signal="pressed" from="ButtonContainer/BtnStart" to="." method="_on_btn_start_pressed"]
+[connection signal="mouse_entered" from="ButtonContainer/BtnNext" to="." method="_on_mouse_entered"]
+[connection signal="pressed" from="ButtonContainer/BtnNext" to="." method="_on_btn_start_pressed"]

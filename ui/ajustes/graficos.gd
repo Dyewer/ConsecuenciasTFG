@@ -1,5 +1,6 @@
 extends Control
 
+class_name UIGraphics
 # Este array contiene las resoluciones aplicables desde el menu de ajustes
 var resolution := [
 	Vector2i(5120, 2160),
@@ -37,6 +38,9 @@ var synchronization := [
 @onready var refreshButton: OptionButton = $ScrollContainer/VBoxContainer/TextureRect4/RefreshButton
 @onready var resolutionButton: OptionButton = $ScrollContainer/VBoxContainer/TextureRect/ResolutionButton
 @onready var synchronizationButton: CheckButton = $ScrollContainer/VBoxContainer/TextureRect6/SynchronizationButton
+@onready var qualityButton : OptionButton = $ScrollContainer/VBoxContainer/TextureRect2/QualityButton
+@onready var screenMode : OptionButton = $ScrollContainer/VBoxContainer/TextureRect3/ScreenModeButton
+
 signal settings_changed
 
 func _ready() -> void:

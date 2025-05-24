@@ -27,13 +27,18 @@ extends AudioStreamPlayer
 ]
 @export var music_folder_path: String = "res://assets/music/"
 
+# Generador de numeros aleatorio
 var rndm = RandomNumberGenerator.new()
+# Copia de la lista completa de la que se extraeran las canciones ya 
+# escogidas
 var remaining_songs: Array[AudioStream] = []
+#Tipo de archivos soportados para evitar conflictos al cargar musica
 var supported_extensions := ["ogg", "mp3", "wav"]
 
-# Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	#Inicializa el generador de numero aleatorio
 	rndm.randomize()
+	
 	_reset_remaining_songs()
 	_play_random_song()
 
@@ -52,35 +57,10 @@ func _play_random_song() -> void:
 	stream = next_song
 	play()
 
-# Volvemos a cargar la lista de canciones a la lista de canciones NO reproducidas
+# Volvemos a cargar la lista de canciones a la lista de canciones NO 
+# reproducidas
 func _reset_remaining_songs() -> void:
-	# Si la lista no se ha rellenado a mano, la llenamos con el contenido
-	# de la carpeta especificada
-	if playlist.is_empty():
-		print("is empty!!")
-		_load_music_from_folder()
 	remaining_songs = playlist.duplicate()
-
-# Rellenamos la lista de canciones desde una carpeta
-func _load_music_from_folder() -> void:
-	playlist.clear()
-	var dir := DirAccess.open(music_folder_path)
-	if not dir:
-		push_error("No se pudo abrir la carpeta: " + music_folder_path)
-		return
-
-	dir.list_dir_begin()
-	var file_name := dir.get_next()
-	while file_name != "":
-		if not dir.current_is_dir():
-			var ext = file_name.get_extension().to_lower()
-			if ext in supported_extensions:
-				var path = music_folder_path + file_name
-				var stream = load(path)
-				if stream is AudioStream:
-					playlist.append(stream)
-		file_name = dir.get_next()
-	dir.list_dir_end()
 
 # Se llama automáticamente cuando se ha terminado de reproducir una canción.
 # Reproducimos una nueva

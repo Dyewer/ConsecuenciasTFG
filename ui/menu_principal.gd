@@ -42,7 +42,7 @@ func _on_btn_new_game_pressed() -> void:
 
 func _on_btn_settings_pressed() -> void:
 	SFX.play_click()
-	_load_scene_thread("res://ui/ajustes.tscn") # Replace with function body.
+	_load_scene_thread("res://ui/ajustes.tscn")
 
 func _on_btn_quit_pressed() -> void:
 	SFX.play_click()

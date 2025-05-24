@@ -3,13 +3,34 @@ extends Control
 @onready var _popup  : PackedScene = null
 @onready var saved : bool = true
 @onready var save_dialog := $GuardarCambios
-
+@onready var sound : UISound = $TabContainer/Sonido
+@onready var graphics : UIGraphics = $TabContainer/Graficos
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	var sound = $TabContainer/Sonido
 	sound.settings_changed.connect(_on_settings_changed)
-	var graphics = $TabContainer/Graficos
 	graphics.settings_changed.connect(_on_settings_changed)
+	var arrayList : Dictionary = DB.getViewConfiguration()
+	var vectorString = arrayList["resolution"].split("x")
+	var vector : Vector2i = Vector2i(int(vectorString[0]),int(vectorString[1]))
+	
+	for i in graphics.resolution.size():
+		if graphics.resolution[i] == vector:
+			graphics.resolutionButton.select(i)
+			break
+	
+	graphics.qualityButton.select(arrayList["quality"])
+	graphics.screenMode.select(arrayList["fullscreen"])
+	
+	for i in graphics.refresh_rate.size():
+		if graphics.refresh_rate[i] == arrayList["refresh"]:
+			graphics.refreshButton.select(i)
+			break
+	
+	graphics.synchronizationButton.set_pressed_no_signal(arrayList["synch"])
+	sound.general.set_value(arrayList["general"])
+	
+	# Falta añadir el resto de modificaciones a los ajustes de sonido
+	
 
 func _on_settings_changed():
 	saved = false
@@ -57,7 +78,22 @@ func _on_btn_save_pressed() -> void:
 
 func _save_on_DB() -> void:
 	#Guardar cambios en la base de datos
-	print("Guardando en base de datos")
+	var arrayListGraphics : Dictionary = {
+		"resolution" : graphics.resolutionButton.get_item_text(graphics.resolutionButton.selected),
+		"quality" : graphics.qualityButton.selected,
+		"fullscreen" : graphics.screenMode.selected,
+		"refresh" : graphics.refresh_rate[graphics.refreshButton.selected],
+		"synch" : int(graphics.synchronizationButton.button_pressed)
+	}
+	var arrayListSound : Dictionary = {
+		"general" : sound.general.value,
+		"music" : 100,
+		"environment" : 100,
+		"effects" : 100,
+		"combat" : 100
+	}
+	
+	DB.updateConfig(arrayListGraphics, arrayListSound)
 	pass
 
 func _save_data() -> void:
@@ -74,4 +110,4 @@ func _on_save_changes_confirmed() -> void:
 
 
 func _on_save_changes_canceled() -> void:
-	print("Datos NO guardados")
+	_back_to_menu()

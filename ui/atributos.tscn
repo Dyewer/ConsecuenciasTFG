@@ -1,7 +1,8 @@
-[gd_scene load_steps=12 format=3 uid="uid://dpgdqjc078q52"]
+[gd_scene load_steps=14 format=3 uid="uid://dpgdqjc078q52"]
 
 [ext_resource type="Theme" uid="uid://cpx2c60ubwk1w" path="res://ui/themes/MainTheme.tres" id="1_th3ah"]
 [ext_resource type="Texture2D" uid="uid://ce1aildtmihhm" path="res://assets/Imagen de WhatsApp 2025-04-12 a las 09.01.37_fdede7ce.jpg" id="2_mqeqe"]
+[ext_resource type="Script" uid="uid://dcny6ksc7k4uh" path="res://ui/atributos.gd" id="2_rtmds"]
 [ext_resource type="Texture2D" uid="uid://b13wu1m8alwum" path="res://assets/synty/ui/Sprites/FantasyMenus/SPR_FantasyMenus_Menu_Button_03_Frame.png" id="3_rtmds"]
 [ext_resource type="PackedScene" uid="uid://dcvedc3qb3f8d" path="res://ui/btnatributos.tscn" id="4_okw58"]
 [ext_resource type="Texture2D" uid="uid://bungdr82abpp4" path="res://assets/synty/ui/Sprites/FantasyMenus/SPR_FantasyMenus_Frame_Box_Large_10.png" id="5_a5obq"]
@@ -9,6 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://b4dm2pqbr2qft" path="res://assets/synty/ui/Sprites/FantasyMenus/aaaaaabc.png" id="7_kijvl"]
 [ext_resource type="Texture2D" uid="uid://8ofhw6saacla" path="res://assets/synty/ui/Sprites/FantasyMenus/SPR_FantasyMenus_Menu_Item_03_Bottom.png" id="8_j4xpi"]
 [ext_resource type="Texture2D" uid="uid://bw0hvufajafwn" path="res://assets/synty/ui/Sprites/Icons_FantasyMenus/SPR_FantasyMenus_Icon_Arrow_02_left_64x64.png" id="9_dwysn"]
+[ext_resource type="Script" uid="uid://cf4p5vbu20hun" path="res://ui/points.gd" id="9_rtmds"]
 [ext_resource type="Texture2D" uid="uid://bkhqh5dkah6p3" path="res://assets/synty/ui/Sprites/Icons_FantasyMenus/SPR_FantasyMenus_Icon_Arrow_02_64x64.png" id="10_kqmi6"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lnror"]
@@ -21,6 +23,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 theme = ExtResource("1_th3ah")
+script = ExtResource("2_rtmds")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 1
@@ -54,22 +57,22 @@ alignment = 1
 layout_mode = 2
 theme_override_constants/separation = 80
 
-[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer/VBoxContainer/HBoxContainer"]
+[node name="VBoxContainer_attributes" type="VBoxContainer" parent="ScrollContainer/VBoxContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_stretch_ratio = 3.0
 theme_override_constants/separation = 37
 
-[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer_attributes"]
 layout_mode = 2
 
-[node name="TextureRect7" type="TextureRect" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer"]
+[node name="TextureRect7" type="TextureRect" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer_attributes"]
 custom_minimum_size = Vector2(400, 60)
 layout_mode = 2
 theme = ExtResource("1_th3ah")
 texture = ExtResource("3_rtmds")
 expand_mode = 1
 
-[node name="Label" type="Label" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer/TextureRect7"]
+[node name="Label" type="Label" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer_attributes/TextureRect7"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.252
@@ -86,35 +89,35 @@ text = "ATRIBUTOS"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="DESTREZA" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer" instance=ExtResource("4_okw58")]
+[node name="DESTREZA" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer_attributes" instance=ExtResource("4_okw58")]
 layout_mode = 2
 atribute = "DESTREZA"
 
-[node name="INTELIGENCIA" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer" instance=ExtResource("4_okw58")]
+[node name="INTELIGENCIA" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer_attributes" instance=ExtResource("4_okw58")]
 layout_mode = 2
 atribute = "INTELIGENCIA"
 
-[node name="FISICO" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer" instance=ExtResource("4_okw58")]
+[node name="FISICO" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer_attributes" instance=ExtResource("4_okw58")]
 layout_mode = 2
 atribute = "FISICO"
 
-[node name="PODER" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer" instance=ExtResource("4_okw58")]
+[node name="PODER" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer_attributes" instance=ExtResource("4_okw58")]
 layout_mode = 2
 atribute = "PODER"
 
-[node name="PERCEPCION" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer" instance=ExtResource("4_okw58")]
+[node name="PERCEPCION" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer_attributes" instance=ExtResource("4_okw58")]
 layout_mode = 2
 atribute = "PERCEPCION"
 
-[node name="MORAL" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer" instance=ExtResource("4_okw58")]
+[node name="MORAL" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer_attributes" instance=ExtResource("4_okw58")]
 layout_mode = 2
 value = 5
 atribute = "MORAL"
 
-[node name="less" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer/MORAL" index="1"]
+[node name="less" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer_attributes/MORAL" index="1"]
 disabled = true
 
-[node name="more" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer/MORAL" index="3"]
+[node name="more" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer_attributes/MORAL" index="3"]
 disabled = true
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="ScrollContainer/VBoxContainer/HBoxContainer"]
@@ -201,7 +204,7 @@ layout_mode = 2
 texture = ExtResource("7_kijvl")
 stretch_mode = 3
 
-[node name="Label" type="Label" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer2/VBoxContainer/HBoxContainer/TextureRect2"]
+[node name="points" type="Label" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer2/VBoxContainer/HBoxContainer/TextureRect2"]
 custom_minimum_size = Vector2(50, 50)
 layout_mode = 1
 anchors_preset = 8
@@ -220,6 +223,7 @@ theme_override_font_sizes/font_size = 40
 text = "10"
 horizontal_alignment = 1
 vertical_alignment = 1
+script = ExtResource("9_rtmds")
 
 [node name="Label" type="Label" parent="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer2/VBoxContainer/HBoxContainer"]
 custom_minimum_size = Vector2(0, 60)
@@ -259,4 +263,7 @@ text = "Empezar partida"
 icon = ExtResource("10_kqmi6")
 icon_alignment = 2
 
-[editable path="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer/MORAL"]
+[connection signal="pressed" from="ScrollContainer/VBoxContainer/ButtonContainer/BtnBack" to="." method="_on_btn_back_pressed"]
+[connection signal="pressed" from="ScrollContainer/VBoxContainer/ButtonContainer/BtnStart" to="." method="_on_btn_start_pressed"]
+
+[editable path="ScrollContainer/VBoxContainer/HBoxContainer/VBoxContainer_attributes/MORAL"]

@@ -14,14 +14,14 @@ var dst: bool
 static func now() -> DateTime:
 	var dt = Time.get_datetime_dict_from_system()
 	var instance = DateTime.new()
-	instance.year = dt.year
-	instance.month = dt.month
-	instance.day = dt.day
-	instance.hour = dt.hour
-	instance.minute = dt.minute
-	instance.second = dt.second
+	instance.year    = dt.year
+	instance.month   = dt.month
+	instance.day     = dt.day
+	instance.hour    = dt.hour
+	instance.minute  = dt.minute
+	instance.second  = dt.second
 	instance.weekday = dt.weekday
-	instance.dst = dt.dst
+	instance.dst     = dt.dst
 	return instance
 
 func format(fmt: String) -> String:
@@ -35,11 +35,4 @@ func format(fmt: String) -> String:
 	return result
 
 func toString() -> String:
-	return "%Y-%m-%d %H:%M:%S".format({
-		"Y": year,
-		"m": str(month).pad_zeros(2),
-		"d": str(day).pad_zeros(2),
-		"H": str(hour).pad_zeros(2),
-		"M": str(minute).pad_zeros(2),
-		"S": str(second).pad_zeros(2),
-	})
+	return format("%Y-%m-%d %H:%M:%S")

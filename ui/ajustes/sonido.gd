@@ -1,5 +1,7 @@
 extends Control
 
+class_name UISound
+
 @onready var general : HSlider = $ScrollContainer/VBoxContainer/TextureRect/TextureRect/General
 @onready var music : HSlider = $ScrollContainer/VBoxContainer/TextureRect3/TextureRect/Music
 @onready var enviroment : HSlider = $ScrollContainer/VBoxContainer/TextureRect5/TextureRect/Enviroment
@@ -14,7 +16,7 @@ func _on_changes() -> void:
 	emit_signal("settings_changed")
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	pass
 
 
@@ -24,7 +26,7 @@ func _on_music_value_changed(value: float) -> void:
 	_on_changes()
 
 
-func _on_general_drag_ended(value_changed: bool) -> void:
+func _on_general_drag_ended(_value_changed: bool) -> void:
 	var value = general.value/100
 	if value < music.value:
 		value = value * music.value

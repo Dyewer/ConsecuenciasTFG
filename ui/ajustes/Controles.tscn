@@ -31,7 +31,7 @@ layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
 text = "Velocidad del raton"
-max_font_size = 30
+max_font_size = 25
 
 [node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/TextureRect"]
 texture_filter = 6
@@ -65,7 +65,7 @@ layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
 text = "Invertir eje y"
-max_font_size = 40
+max_font_size = 25
 
 [node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/TextureRect2"]
 layout_mode = 1
@@ -95,7 +95,7 @@ layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
 text = "Abrir Inventario"
-max_font_size = 40
+max_font_size = 25
 
 [node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/TextureRect3"]
 layout_mode = 1
@@ -124,7 +124,7 @@ layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
 text = "Abrir Menú de Juego"
-max_font_size = 30
+max_font_size = 25
 
 [node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/TextureRect4"]
 layout_mode = 1
@@ -152,7 +152,7 @@ layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
 text = "Abrir Hoja de Personaje"
-max_font_size = 30
+max_font_size = 25
 
 [node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/TextureRect5"]
 layout_mode = 1
@@ -180,7 +180,7 @@ layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
 text = "Abrir Diario"
-max_font_size = 40
+max_font_size = 25
 
 [node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/TextureRect6"]
 layout_mode = 1
@@ -208,7 +208,7 @@ layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
 text = "Acercar Camara"
-max_font_size = 40
+max_font_size = 25
 
 [node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/TextureRect7"]
 layout_mode = 1
@@ -236,7 +236,7 @@ layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
 text = "Alejar Camara"
-max_font_size = 40
+max_font_size = 25
 
 [node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/TextureRect8"]
 layout_mode = 1
@@ -264,7 +264,7 @@ layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
 text = "Centrar Camara"
-max_font_size = 40
+max_font_size = 25
 
 [node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/TextureRect9"]
 layout_mode = 1
@@ -348,7 +348,7 @@ layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
 text = "Interactuar"
-max_font_size = 40
+max_font_size = 25
 
 [node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/TextureRect12"]
 layout_mode = 1
@@ -376,7 +376,7 @@ layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
 text = "Ocultarse"
-max_font_size = 40
+max_font_size = 25
 
 [node name="TextureRect" type="TextureRect" parent="ScrollContainer/VBoxContainer/TextureRect13"]
 layout_mode = 1

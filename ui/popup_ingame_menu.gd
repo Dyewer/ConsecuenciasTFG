@@ -1,9 +1,11 @@
 extends Control
 
-@onready var _container : PanelContainer = $PanelContainer
-@onready var _buttons   : VBoxContainer  = $PanelContainer/VBoxContainer
-@onready var _popup     : PackedScene    = null
+class_name PopUpInGame
 
+@onready var _container : PanelContainer = $PanelContainer
+@onready var _buttons : VBoxContainer  = $PanelContainer/VBoxContainer
+@onready var _popup : PackedScene    = null
+var capture : Image = null
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	if not _popup:
@@ -15,6 +17,7 @@ func _ready() -> void:
 func _close() -> void:
 	get_tree().paused = false
 	visible = false
+	capture = null
 
 func _load_scene_thread(path : String, text : String = ""):
 	var sl = SceneLoader.new()
@@ -51,10 +54,15 @@ func _on_btn_reanudar_pressed() -> void:
 	_close()
 
 func _on_btn_guardar_pressed() -> void:
-	pass # Replace with function body.
+	SFX.play_click()
+	if GameState.current():
+		GameState.current().save_game(capture)
 
 func _on_btn_guardar_salir_pressed() -> void:
-	pass # Replace with function body.
+	SFX.play_click()
+	if GameState.current():
+		GameState.current().save_game(capture)
+	_load_scene_thread("res://ui/MenuPrincipal.tscn", "Cerrando...")
 
 func _on_btn_terminar_pressed() -> void:
 	SFX.play_click()

@@ -1,9 +1,11 @@
 extends Node3D
 
+class_name  World
+
 @onready var _camera_rig  : CameraRig   = $CameraRig
 @onready var _player      : Player      = $Player
 @onready var _canvas      : CanvasLayer = $CanvasLayer
-@onready var _ingame_menu : Control     = $CanvasLayer/PopupInGameMenu
+@onready var _ingame_menu : PopUpInGame     = $CanvasLayer/PopupInGameMenu
 
 var _is_cam_rotating : bool = false
 
@@ -16,9 +18,9 @@ func _ready() -> void:
 func _input(event : InputEvent):
 	if _player and Input.is_action_just_pressed("mouse_click"):
 		var space_state = get_world_3d().direct_space_state
-		var ray_origin  = _camera_rig.camera.project_ray_origin(event.position)
-		var ray_dir     = _camera_rig.camera.project_ray_normal(event.position)
-		var ray_length  = 1000
+		var ray_origin = _camera_rig.camera.project_ray_origin(event.position)
+		var ray_dir = _camera_rig.camera.project_ray_normal(event.position)
+		var ray_length = 1000
 		var rayQuery = PhysicsRayQueryParameters3D.create(ray_origin, ray_origin + ray_dir * ray_length)
 		rayQuery.exclude = [_player, _camera_rig]
 		var result = space_state.intersect_ray(rayQuery)
@@ -43,6 +45,7 @@ func _input(event : InputEvent):
 			_is_cam_rotating = false
 
 func _show_ingame_menu() -> void:
+	_ingame_menu.capture = get_viewport().get_texture().get_image()
 	if _ingame_menu.visible:
 		return
 	_is_cam_rotating  = false

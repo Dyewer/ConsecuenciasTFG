@@ -1,0 +1,109 @@
+[gd_scene load_steps=4 format=3 uid="uid://eva07fi6sx1"]
+
+[ext_resource type="Texture2D" uid="uid://bwu103sad5y7l" path="res://assets/synty/ui/Sprites/FantasyMenus/Redimensionadas/SPR_FantasyMenus_Menu_Button_07_Frame.png" id="1_6kh4h"]
+[ext_resource type="Theme" uid="uid://cpx2c60ubwk1w" path="res://ui/themes/MainTheme.tres" id="2_ob5e0"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pf68b"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer"]
+layout_mode = 2
+
+[node name="ButtonContainer" type="HBoxContainer" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="ButtonContainer" type="HBoxContainer" parent="ScrollContainer/VBoxContainer/ButtonContainer"]
+custom_minimum_size = Vector2(100, 40)
+layout_mode = 2
+size_flags_vertical = 8
+
+[node name="BtnBack" type="Button" parent="ScrollContainer/VBoxContainer/ButtonContainer/ButtonContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 8
+icon = ExtResource("1_6kh4h")
+
+[node name="Label" type="Label" parent="ScrollContainer/VBoxContainer/ButtonContainer/ButtonContainer/BtnBack"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.273
+anchor_top = 0.347
+anchor_right = 0.742
+anchor_bottom = 0.667
+offset_left = -0.0719986
+offset_top = 0.0159988
+offset_right = 0.111984
+offset_bottom = -0.0240021
+theme = ExtResource("2_ob5e0")
+theme_override_font_sizes/font_size = 21
+text = "Guardar"
+horizontal_alignment = 1
+
+[node name="VSeparator" type="VSeparator" parent="ScrollContainer/VBoxContainer/ButtonContainer/ButtonContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/separator = SubResource("StyleBoxFlat_pf68b")
+
+[node name="BtnBack3" type="Button" parent="ScrollContainer/VBoxContainer/ButtonContainer/ButtonContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 8
+icon = ExtResource("1_6kh4h")
+
+[node name="Label" type="Label" parent="ScrollContainer/VBoxContainer/ButtonContainer/ButtonContainer/BtnBack3"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.273
+anchor_top = 0.347
+anchor_right = 0.742
+anchor_bottom = 0.667
+offset_left = -0.0719986
+offset_top = 0.0159988
+offset_right = 0.111984
+offset_bottom = -0.0240021
+theme = ExtResource("2_ob5e0")
+theme_override_font_sizes/font_size = 21
+text = "Cargar"
+horizontal_alignment = 1
+
+[node name="VSeparator2" type="VSeparator" parent="ScrollContainer/VBoxContainer/ButtonContainer/ButtonContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/separator = SubResource("StyleBoxFlat_pf68b")
+
+[node name="BtnBack2" type="Button" parent="ScrollContainer/VBoxContainer/ButtonContainer/ButtonContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 8
+icon = ExtResource("1_6kh4h")
+
+[node name="Label" type="Label" parent="ScrollContainer/VBoxContainer/ButtonContainer/ButtonContainer/BtnBack2"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.273
+anchor_top = 0.347
+anchor_right = 0.742
+anchor_bottom = 0.667
+offset_left = -0.0719986
+offset_top = 0.0159988
+offset_right = 0.111984
+offset_bottom = -0.0240021
+theme = ExtResource("2_ob5e0")
+theme_override_font_sizes/font_size = 21
+text = "Eliminar"
+horizontal_alignment = 1
